@@ -1,0 +1,46 @@
+
+// Font @import
+@import url("https://fonts.googleapis.com/css?family=Chivo:400,700");
+
+// Font family
+$body-font-family: "Chivo", "Helvetica Neue", Arial, sans-serif;
+$body-font-weight: 400;
+$body-font-size: 16px;
+$prose-font-size: 20px;
+
+
+// Type scale
+
+$f-head: 6rem !default;     // 96px
+$f-subh: 5rem !default;     // 80px
+
+$f1-size: 4rem !default;    // 64px
+$f2-size: 3rem !default;    // 48px
+$f3-size: 2.25rem !default; // 36px
+$f4-size: 1.5rem !default;  // 24px
+$f5-size: 1.25rem !default; // 20px
+$f6-size: 1rem !default;    // 16px
+$f7-size: .75rem !default;  // 12px
+
+$display-spacing: -2px;
+
+// Default border color
+$color-border: #ddd !default;
+
+// Medium breakpoint (40em @ 16px is 560px)
+$breakpoint-md: 35em;
+
+// Large breakpoint (52em @ 16px is 832px)
+$breakpoint-lg: 52em;
+
+// Container width (64em @ 16px is 1024px)
+$container-width: 64em;
+
+// Spacing unit
+$spacer: 8px !default;
+
+// Spacing scale
+$spacer-1: $spacer !default; // 8px
+$spacer-2: ($spacer * 2) !default; // 16px
+$spacer-3: ($spacer * 4) !default; // 32px
+$spacer-4: ($spacer * 8) !default; // 64px
