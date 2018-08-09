@@ -1,4 +1,28 @@
 @import url("https://fonts.googleapis.com/css?family=Chivo:400,700");
+@font-face {
+  font-family: Graphik;
+  font-weight: normal;
+  font-style: normal;
+  src: url("/assets/assets/fonts/Graphik-Regular-Web.eot");
+  src: url("/assets/assets/fonts/Graphik-Regular-Web.eot?#iefix") format("embedded-opentype"), url("/assets/fonts/Graphik-Regular-Web.woff") format("woff"), url("/assets/fonts/Graphik-Regular-Web.ttf") format("truetype"), url("/assets/fonts/Graphik-Regular-Web.svg#Graphik") format("svg"); }
+@font-face {
+  font-family: Graphik;
+  font-weight: normal;
+  font-style: italic;
+  src: url("/assets/fonts/Graphik-RegularItalic-Web.eot");
+  src: url("/assets/fonts/Graphik-RegularItalic-Web.eot?#iefix") format("embedded-opentype"), url("/assets/fonts/Graphik-RegularItalic-Web.woff") format("woff"), url("/assets/fonts/Graphik-RegularItalic-Web.ttf") format("truetype"), url("/assets/fonts/Graphik-RegularItalic-Web.svg#Graphik") format("svg"); }
+@font-face {
+  font-family: Graphik;
+  font-weight: 600;
+  font-style: normal;
+  src: url("/assets/fonts/Graphik-Semibold-Web.eot");
+  src: url("/assets/fonts/Graphik-Semibold-Web.eot?#iefix") format("embedded-opentype"), url("/assets/fonts/Graphik-Semibold-Web.woff") format("woff"), url("/assets/fonts/Graphik-Semibold-Web.ttf") format("truetype"), url("/assets/fonts/Graphik-Semibold-Web.svg#Graphik") format("svg"); }
+@font-face {
+  font-family: Graphik;
+  font-weight: 600;
+  font-style: italic;
+  src: url("/assets/fonts/Graphik-SemiboldItalic-Web.eot");
+  src: url("/assets/fonts/Graphik-SemiboldItalic-Web.eot?#iefix") format("embedded-opentype"), url("/assets/fonts/Graphik-SemiboldItalic-Web.woff") format("woff"), url("/assets/fonts/Graphik-SemiboldItalic-Web.ttf") format("truetype"), url("/assets/fonts/Graphik-SemiboldItalic-Web.svg#Graphik") format("svg"); }
 /**
   * Reset some basic elements
 */
@@ -25,17 +49,19 @@ dl, dd, ol, ul, figure {
 */
 body {
   font-family: "Chivo", "Helvetica Neue", Arial, sans-serif;
-  font-weight: 400;
+  font-weight: normal;
   font-size: 16px;
   line-height: 1.5;
   color: #181818;
   background-color: #fff; }
 
 p {
+  font-family: "Graphik", "Helvetica Neue", Arial, sans-serif;
   margin-top: 0;
   margin-bottom: 0.5em; }
 
 h1, h2, h3, h4, h5, h6 {
+  font-family: "Chivo", "Helvetica Neue", Arial, sans-serif;
   margin-top: 1em;
   margin-bottom: 0.25em; }
 

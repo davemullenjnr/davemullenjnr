@@ -29,7 +29,7 @@ dl, dd, ol, ul, figure {
 */
 
 body {
-    font-family: $body-font-family;
+    font-family: $header-font-family;
     font-weight: $body-font-weight;
     font-size: $body-font-size;
     line-height: 1.5;
@@ -38,11 +38,13 @@ body {
 }
 
 p {
+  font-family: $body-font-family;
   margin-top: 0;
   margin-bottom: 0.5em;
 }
 
 h1, h2, h3, h4, h5, h6 {
+  font-family: $header-font-family;
   margin-top: 1em;
   margin-bottom: 0.25em;
 }

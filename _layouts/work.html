@@ -10,45 +10,53 @@
     {% include header.html %}
 
     <div class="container mx-auto px-2">
-      <h1 class="f1 f-subh-md f-head-lg py-4 mt-3">{{ page.title }}</h1>
+      <h1 class="f1 f-subh-md f-head-lg py-4 mt-3 mb-0">{{ page.title }}</h1>
     </div>
   </header>
 
   <div class="container mx-auto py-3 clearfix">
+
     <!-- project card start -->
     <div class="col-6 sm-width-full left px-2 mb-4">
       <a class="header-background block mb-2" href="/">
-        <img src="/portfolio/assets/img/projects/made-by-maria-project-540px.jpg" alt="Maria in apron with the Made By Maria logo printed on the front"
-        srcset="/portfolio/assets/img/projects/made-by-maria-project-540px.jpg 540w,
-                /portfolio/assets/img/projects/made-by-maria-project-1080px.jpg 1080w"
-         sizes="(max-width: 540px) 540px,
-                1080px">
+        <img srcset="/assets/img/ph-540px.jpg 540w,
+                     /assets/img/ph-1080px.jpg 1080w,
+                     /assets/img/ph-1620px.jpg 1620w,"
+             sizes="(max-width: 560px) 100vw, 50vw"
+             src="/assets/img/ph-540px.jpg" alt="placeholder"/>
       </a>
-        <a class="f5 f4-lg link-primary" href="/">Made By Maria</a>
+      <a class="f5 f4-lg link-primary" href="/">Made By Maria</a>
     </div>
     <!-- project card end -->
-    
+
     <!-- project card start -->
     <div class="col-6 sm-width-full left px-2 mb-4">
       <a class="header-background block mb-2" href="/">
-        <img src="/portfolio/assets/img/hw-1x.jpg" alt="Maria in apron with the Made By Maria logo printed on the front"
-        srcset="/portfolio/assets/img/hw-1x.jpg 1x,
-                /portfolio/assets/img/hw-2x.jpg 2x">
+        <img
+        srcset="/assets/img/ph-540px.jpg 540w,
+                /assets/img/ph-1080px.jpg 1080w,
+                /assets/img/ph-1620px.jpg 1620w,"
+        sizes="(max-width: 560px) 100vw, 50vw"
+        src="/assets/img/ph-540px.jpg" alt="placeholder"/>
       </a>
-        <a class="f5 f4-lg link-primary" href="/">Project Title</a>
+      <a class="f5 f4-lg link-primary" href="/">Made By Maria</a>
     </div>
     <!-- project card end -->
 
     <!-- project card start -->
     <div class="col-12 sm-width-full left px-2 mb-4">
       <a class="header-background block mb-2" href="/">
-        <img src="/portfolio/assets/img/fw-1x.jpg" alt="full width image"
-        srcset="/portfolio/assets/img/fw-1x.jpg 1x,
-                /portfolio/assets/img/fw-2x.jpg 2x">
+        <img
+        srcset="/assets/img/ph-540px.jpg 540w,
+                /assets/img/ph-1080px.jpg 1080w,
+                /assets/img/ph-1620px.jpg 1620w,"
+         sizes="(max-width: 540px) 540px, 1080px"
+         src="/assets/img/ph-1080px.jpg" alt="placeholder"/>
       </a>
-        <a class="f5 f4-lg link-primary" href="/">Project Title</a>
+      <a class="f5 f4-lg link-primary" href="/">Project Title</a>
     </div>
     <!-- project card end -->
+
   </div>
 
   {% include footer.html %}
