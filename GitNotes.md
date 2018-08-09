@@ -1,8 +1,8 @@
 # Run server to generate local site
-jekyll serve
+    jekyll serve
 
 # Stop server
-ctrl-c
+    ctrl-c
 
 # Run with administrative privileges
 sudo (before command)
