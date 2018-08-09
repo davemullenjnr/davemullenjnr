@@ -1,4 +1,4 @@
-#Run server to generate local site
+# Run server to generate local site
 jekyll serve
 
 # Stop server
@@ -11,8 +11,8 @@ sudo (before command)
 git status
 
 # Push local changes to GitHub
-git add .
-git commit -m "description"
+git add . /
+git commit -m "description" /
 git push
 
 
