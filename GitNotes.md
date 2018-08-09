@@ -11,8 +11,8 @@ sudo (before command)
 git status
 
 # Push local changes to GitHub
-git add . /
-git commit -m "description" /
+git add .  
+git commit -m "description"  
 git push
 
 
