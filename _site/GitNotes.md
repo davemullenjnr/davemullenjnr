@@ -1,8 +1,27 @@
-**Run server to generate local site**
-jekyll serve
+## Run server to generate local site
+    jekyll serve
 
-**Stop server**
-ctrl-c
+## Stop server
+    ctrl-c
 
-**Run with administrative privileges**
-sudo (before command)
+## Run with administrative privileges
+    sudo (before command)
+
+## See what files have been modified
+    git status
+
+## Push local changes to GitHub
+    git add .  
+    git commit -m "description"  
+    git push
+
+
+## Update Gems
+    bundle update
+
+
+## The current folder will be generated into site folder
+    jekyll build
+
+##  The current folder will be generated into site folder, watched for changes, and regenerated automatically.
+    jekyll build --watch

@@ -18,3 +18,10 @@
 
 ## Update Gems
     bundle update
+
+
+## The current folder will be generated into site folder
+    jekyll build
+
+##  The current folder will be generated into site folder, watched for changes, and regenerated automatically.
+    jekyll build --watch
