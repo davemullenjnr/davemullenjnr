@@ -3,11 +3,12 @@
 // Color variables
 $black: #181818;
 $brand: #4499ff;
-$gray-light: #f5f5f5;
+$grey-light: #f1f1f1;
+$grey-dark: #919191;
 $white: #fff;
 
 // Config
-$color-background: $gray-light !default;
+$color-background: $grey-light !default;
 $color-dot-accent: $brand !default;
 $color-foreground: $black !default;
 $color-title: $black !default;

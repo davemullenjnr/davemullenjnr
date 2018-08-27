@@ -32,6 +32,22 @@ code {
     padding: 1px 4px;
 }
 
+// project-card
+.project-card {
+  img {
+    transition: all 0.2s ease-out;
+  }
+  img:hover {
+    opacity: 0.8;
+  }
+}
+
+//project tags component
+.tags {
+    background-color: $grey-light;
+    border-radius: $spacer / 4;
+    color: $grey-dark;
+}
 
 // Prose — Styles for the content.
 .prose {

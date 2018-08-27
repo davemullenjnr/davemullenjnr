@@ -7,13 +7,15 @@
   <div class="right sm-width-full">
     <ul class="list-reset mt-2 mb-2">
       {% for my_page in site.pages %}
-        {% if my_page.title %}
-        <li class="inline-block">
-          <a class="f5 f4-md align-middle link-primary mr-3 mr-lg-0 ml-lg-3" href="{{ my_page.url | prepend: site.baseurl }}">
-            {{ my_page.title }}
-          </a>
-        </li>
-        {% endif %}
+        {% unless my_page.exclude %}
+          {% if my_page.title %}
+          <li class="inline-block">
+            <a class="f5 f4-md align-middle link-primary mr-3 mr-lg-0 ml-lg-3" href="{{ my_page.url | prepend: site.baseurl }}">
+              {{ my_page.title }}
+            </a>
+          </li>
+          {% endif %}
+        {% endunless %}
       {% endfor %}
     </ul>
   </div>
