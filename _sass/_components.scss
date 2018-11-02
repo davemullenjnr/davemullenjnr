@@ -1,4 +1,4 @@
-// Badge component
+// Badge — (The WIP badge originally on homepage)
 .badge {
   position: relative;
   vertical-align: top;
@@ -13,34 +13,22 @@
   }
 }
 
-
-// Styling markdown output
-
-
-// Code formatting
-pre {
-    border-left: $spacer-1 solid $color-border;
-    margin: $spacer-3 0;
-    padding-left: 16px;
-    width: (9 / 12 * 100%); // matches col-9
-    overflow-x: auto;
+// Video
+.video-wrapper {
+	position: relative;
+	padding-bottom: 56.25%; /* 16:9 */
+	padding-top: 25px;
+	height: 0;
 }
 
-code {
-    color: $color-code;
-    font-size: $body-font-size;
-    padding: 1px 4px;
+.video-wrapper iframe {
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
 }
 
-// project-card
-.project-card {
-  img {
-    transition: all 0.2s ease-out;
-  }
-  img:hover {
-    opacity: 0.8;
-  }
-}
 
 //project tags component
 .tags {
@@ -52,59 +40,15 @@ code {
 // Prose — Styles for the content.
 .prose {
 
-  p, ol, ul {
-    font-size: $prose-font-size;
-    margin-bottom: 1em;
+  p {
+    font-size: $body-font-size;
+    margin-bottom: $spacer-2;
     width: 100%;
 
-    @media (min-width: $breakpoint-lg) {
-      width: (10 / 12 * 100%); // matches col-10
-    }
-
-  }
-
-  ul, ol {
-    padding-left: 40px;
-  }
-
-  li {
-    margin-bottom: 0.5em;
-
-    ul li, ol li {
-      margin-bottom: 0;
-    }
-  }
-
-  img {
-
-    max-width: 100%;
-
-    @media (min-width: $breakpoint-lg) {
-      max-width: (12 / 10 * 100%); // make image fill width of container on desktop
-    }
-
-  }
-
-  blockquote {
-    line-height: 1.375;
-    padding-left: 20px;
-    margin: 40px 0 40px -16px;
-    border-left: $spacer-1 solid $color-border;
-    font-style: italic;
-
-    p {
-      font-size: 24px;
-    }
-
-    @media (min-width: $breakpoint-lg) {
-      padding-left: $spacer-3;
-      margin: $spacer-4 0 $spacer-4 -40px;
-      max-width: (11 / 10 * 100%);
-
-      p {
-        font-size: 32px;
-      }
-
+    @media (min-width: $breakpoint-md) {
+      font-size: ($body-font-size * 1.25);
+      margin-bottom: $spacer-3;
+      width: (9 / 12 * 100%); // matches col-8
     }
 
   }
@@ -117,49 +61,81 @@ code {
     margin-bottom: 0.5em;
   }
 
-  dt {
-    font-weight: bold;
-    font-style: italic;
-    line-height: 1.25;
+}
+
+// Link styles
+
+.active {
+  border-bottom-color: $brand;
+}
+
+// Links within paragraph text
+.link-body {
+  border-bottom: 2px solid;
+  border-color: $grey-mid;
+  padding-bottom: $spacer / 2;
+  transition: ease-in-out .1s;
+
+  &:hover {
+    border-color: $brand;
+  }
+}
+
+// Links within caption text
+.link-caption {
+  border-bottom: 1px solid;
+  border-color: inherit;
+  padding-bottom: $spacer / 2;
+  transition: ease-in-out .1s;
+
+  &:hover {
+    color: $black;
+    border-color: $black;
+  }
+}
+
+
+// Link styles for social icons
+.link-social {
+  text-decoration: none;
+  font-weight: bold;
+  line-height: 1;
+
+  &:hover {
+    text-decoration: none !important;
+  }
+}
+
+// Link styles for navigation
+.link-primary {
+  text-decoration: none;
+  padding-bottom: 2px;
+  border-bottom: 2px solid transparent;
+
+  &:hover, &:active {
+    text-decoration: none;
+    border-bottom-color: $brand;
   }
 
-  dd {
-    font-style: italic;
-    margin-bottom: 0.5em;
+}
+
+// Link styles for post titles
+/*
+.link-post {
+  transition: ease-in-out .1s;
+
+  &:hover {
+    color: $grey-dark;
   }
+}
+*/
 
-  // Markdown tables
-  table {
-    border-collapse: collapse;
-    display: block;
-    width: 100%;
-    margin-bottom: 1.5em;
-    overflow: auto;
-    // For Firefox to horizontally scroll wider tables.
-    word-break: normal;
-    word-break: keep-all;
-
-    th {
-      font-weight: bold;
-      text-align: left;
-    }
-
-    th,
-    td {
-      padding: $spacer-2 $spacer-3 $spacer-2 2px;
-      border-top: 1px solid $color-body-text;
-      border-bottom: 1px solid $color-body-text;
-    }
-
-    tr {
-      background-color: #fff;
-      border-top: 1px solid $color-body-text;
-    }
-
-    tr th {
-      border-top: 2px solid $color-body-text;
-      border-bottom: 2px solid $color-body-text;
-    }
+// Image as a link
+.link-image {
+  img {
+    transition: all 0.2s ease-out;
   }
-
+  img:hover {
+    opacity: 0.8;
+  }
 }

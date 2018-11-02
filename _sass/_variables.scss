@@ -58,7 +58,7 @@ $display-spacing: -2px;
 // Default border color
 $color-border: #ddd !default;
 
-// Medium breakpoint (40em @ 16px is 560px)
+// Medium breakpoint (35em @ 16px is 560px)
 $breakpoint-md: 35em;
 
 // Large breakpoint (52em @ 16px is 832px)
@@ -66,6 +66,9 @@ $breakpoint-lg: 52em;
 
 // Container width (64em @ 16px is 1024px)
 $container-width: 64em;
+
+// Container width (72em @ 16px is 1152px)
+$container-width-xl: 72em;
 
 // Spacing unit
 $spacer: 8px !default;

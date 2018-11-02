@@ -4,6 +4,7 @@
 $black: #181818;
 $brand: #4499ff;
 $grey-light: #f1f1f1;
+$grey-mid: #c1c1c1;
 $grey-dark: #919191;
 $white: #fff;
 
@@ -24,5 +25,6 @@ $color-primary-link: $brand !default;
         "variables",
         "base",
         "components",
-        "utilities"
+        "utilities",
+        "flexbox"
 ;

@@ -1,25 +1,684 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.8.3">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2018-08-27T13:59:08+01:00</updated><id>http://localhost:4000/</id><title type="html">Dave Mullen Jnr</title><subtitle>Write an awesome description for your new site here. You can edit this line in _config.yml. It will appear in your document head meta (for Google search results) and in your feed.xml site description.</subtitle><entry><title type="html">Hello</title><link href="http://localhost:4000/jekyll/update/2018/04/03/hello.html" rel="alternate" type="text/html" title="Hello" /><published>2018-04-03T09:18:06+01:00</published><updated>2018-04-03T09:18:06+01:00</updated><id>http://localhost:4000/jekyll/update/2018/04/03/hello</id><content type="html" xml:base="http://localhost:4000/jekyll/update/2018/04/03/hello.html">&lt;p&gt;You’ll find this post in your &lt;code class=&quot;highlighter-rouge&quot;&gt;_posts&lt;/code&gt; directory. Go ahead and edit it and re-build the site to see your changes. You can rebuild the site in many different ways, but the most common way is to run &lt;code class=&quot;highlighter-rouge&quot;&gt;jekyll serve&lt;/code&gt;, which launches a web server and auto-regenerates your site when a file is updated.&lt;/p&gt;
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.8.4">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2018-11-02T20:32:03+00:00</updated><id>http://localhost:4000/feed.xml</id><title type="html">Dave Mullen Jnr</title><subtitle>Write an awesome description for your new site here. You can edit this line in _config.yml. It will appear in your document head meta (for Google search results) and in your feed.xml site description.</subtitle><author><name>Dave Mullen Jnr</name></author><entry><title type="html">Empty Design Museum</title><link href="http://localhost:4000/blog/empty-design-museum/" rel="alternate" type="text/html" title="Empty Design Museum" /><published>2016-11-21T09:09:00+00:00</published><updated>2016-11-21T09:09:00+00:00</updated><id>http://localhost:4000/blog/design-museum</id><content type="html" xml:base="http://localhost:4000/blog/empty-design-museum/">&lt;div class=&quot;mb-3 mb-md-4&quot;&gt;
+  &lt;p&gt;The Design Museum invited me, on behalf of my architecture photography project &lt;a class=&quot;link-body&quot; href=&quot;https://geometryclub.org/&quot;&gt;Geometry Club&lt;/a&gt;, to explore and photograph their new space before it opens to the public on 24th Nov 2016.&lt;/p&gt;
+  &lt;p&gt;The highlight was the enormity of the hyperbolic paraboloid roof. It has been beautifully exposed so that it could enjoyed from the inside. Here’s a selection of my photographs from the #emptydesignmuseum event.&lt;/p&gt;
+&lt;/div&gt;
 
-&lt;p&gt;To add new posts, simply add a file in the &lt;code class=&quot;highlighter-rouge&quot;&gt;_posts&lt;/code&gt; directory that follows the convention &lt;code class=&quot;highlighter-rouge&quot;&gt;YYYY-MM-DD-name-of-post.ext&lt;/code&gt; and includes the necessary front matter. Take a look at the source for this post to get an idea about how it works.&lt;/p&gt;
+&lt;figure class=&quot;mb-2&quot;&gt;
+  &lt;img src=&quot;/assets/img/posts//empty-design-museum/01-The-Design-Museum-London-0716.jpg&quot;
+       alt=&quot;&quot;
+       class=&quot;border-radius mb-2&quot;
+  /&gt;
+  
+&lt;/figure&gt;
 
-&lt;p&gt;Jekyll also offers powerful support for code snippets:&lt;/p&gt;
+&lt;figure class=&quot;mb-2&quot;&gt;
+  &lt;img src=&quot;/assets/img/posts//empty-design-museum/02-The-Design-Museum-London-0926.jpg&quot;
+       alt=&quot;&quot;
+       class=&quot;border-radius mb-2&quot;
+  /&gt;
+  
+&lt;/figure&gt;
 
-&lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-ruby&quot; data-lang=&quot;ruby&quot;&gt;&lt;span class=&quot;k&quot;&gt;def&lt;/span&gt; &lt;span class=&quot;nf&quot;&gt;print_hi&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nb&quot;&gt;name&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
-  &lt;span class=&quot;nb&quot;&gt;puts&lt;/span&gt; &lt;span class=&quot;s2&quot;&gt;&quot;Hi, &lt;/span&gt;&lt;span class=&quot;si&quot;&gt;#{&lt;/span&gt;&lt;span class=&quot;nb&quot;&gt;name&lt;/span&gt;&lt;span class=&quot;si&quot;&gt;}&lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;&quot;&lt;/span&gt;
-&lt;span class=&quot;k&quot;&gt;end&lt;/span&gt;
-&lt;span class=&quot;n&quot;&gt;print_hi&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;s1&quot;&gt;'Tom'&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
-&lt;span class=&quot;c1&quot;&gt;#=&amp;gt; prints 'Hi, Tom' to STDOUT.&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
+&lt;figure class=&quot;mb-2&quot;&gt;
+  &lt;img src=&quot;/assets/img/posts//empty-design-museum/03-The-Design-Museum-London-0758.jpg&quot;
+       alt=&quot;&quot;
+       class=&quot;border-radius mb-2&quot;
+  /&gt;
+  
+&lt;/figure&gt;
 
-&lt;p&gt;Check out the &lt;a href=&quot;https://jekyllrb.com/docs/home&quot;&gt;Jekyll docs&lt;/a&gt; for more info on how to get the most out of Jekyll. File all bugs/feature requests at &lt;a href=&quot;https://github.com/jekyll/jekyll&quot;&gt;Jekyll’s GitHub repo&lt;/a&gt;. If you have questions, you can ask them on &lt;a href=&quot;https://talk.jekyllrb.com/&quot;&gt;Jekyll Talk&lt;/a&gt;.&lt;/p&gt;</content><author><name></name></author><summary type="html">You’ll find this post in your _posts directory. Go ahead and edit it and re-build the site to see your changes. You can rebuild the site in many different ways, but the most common way is to run jekyll serve, which launches a web server and auto-regenerates your site when a file is updated.</summary></entry><entry><title type="html">Welcome to Jekyll!</title><link href="http://localhost:4000/jekyll/update/2018/02/14/welcome-to-jekyll.html" rel="alternate" type="text/html" title="Welcome to Jekyll!" /><published>2018-02-14T08:18:06+00:00</published><updated>2018-02-14T08:18:06+00:00</updated><id>http://localhost:4000/jekyll/update/2018/02/14/welcome-to-jekyll</id><content type="html" xml:base="http://localhost:4000/jekyll/update/2018/02/14/welcome-to-jekyll.html">&lt;p&gt;You’ll find this post in your &lt;code class=&quot;highlighter-rouge&quot;&gt;_posts&lt;/code&gt; directory. Go ahead and edit it and re-build the site to see your changes. You can rebuild the site in many different ways, but the most common way is to run &lt;code class=&quot;highlighter-rouge&quot;&gt;jekyll serve&lt;/code&gt;, which launches a web server and auto-regenerates your site when a file is updated.&lt;/p&gt;
+&lt;figure class=&quot;mb-2&quot;&gt;
+  &lt;img src=&quot;/assets/img/posts//empty-design-museum/04-The-Design-Museum-London-0745.jpg&quot;
+       alt=&quot;&quot;
+       class=&quot;border-radius mb-2&quot;
+  /&gt;
+  
+&lt;/figure&gt;
 
-&lt;p&gt;To add new posts, simply add a file in the &lt;code class=&quot;highlighter-rouge&quot;&gt;_posts&lt;/code&gt; directory that follows the convention &lt;code class=&quot;highlighter-rouge&quot;&gt;YYYY-MM-DD-name-of-post.ext&lt;/code&gt; and includes the necessary front matter. Take a look at the source for this post to get an idea about how it works.&lt;/p&gt;
+&lt;figure class=&quot;mb-2&quot;&gt;
+  &lt;img src=&quot;/assets/img/posts//empty-design-museum/05-The-Design-Museum-London-0858.jpg&quot;
+       alt=&quot;&quot;
+       class=&quot;border-radius mb-2&quot;
+  /&gt;
+  
+&lt;/figure&gt;
 
-&lt;p&gt;Jekyll also offers powerful support for code snippets:&lt;/p&gt;
+&lt;figure class=&quot;mb-2&quot;&gt;
+  &lt;img src=&quot;/assets/img/posts//empty-design-museum/06-The-Design-Museum-London-0776.jpg&quot;
+       alt=&quot;&quot;
+       class=&quot;border-radius mb-2&quot;
+  /&gt;
+  
+&lt;/figure&gt;
 
-&lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-ruby&quot; data-lang=&quot;ruby&quot;&gt;&lt;span class=&quot;k&quot;&gt;def&lt;/span&gt; &lt;span class=&quot;nf&quot;&gt;print_hi&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nb&quot;&gt;name&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
-  &lt;span class=&quot;nb&quot;&gt;puts&lt;/span&gt; &lt;span class=&quot;s2&quot;&gt;&quot;Hi, &lt;/span&gt;&lt;span class=&quot;si&quot;&gt;#{&lt;/span&gt;&lt;span class=&quot;nb&quot;&gt;name&lt;/span&gt;&lt;span class=&quot;si&quot;&gt;}&lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;&quot;&lt;/span&gt;
-&lt;span class=&quot;k&quot;&gt;end&lt;/span&gt;
-&lt;span class=&quot;n&quot;&gt;print_hi&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;s1&quot;&gt;'Tom'&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
-&lt;span class=&quot;c1&quot;&gt;#=&amp;gt; prints 'Hi, Tom' to STDOUT.&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
+&lt;figure class=&quot;mb-2&quot;&gt;
+  &lt;img src=&quot;/assets/img/posts//empty-design-museum/07-The-Design-Museum-London-0775.jpg&quot;
+       alt=&quot;&quot;
+       class=&quot;border-radius mb-2&quot;
+  /&gt;
+  
+&lt;/figure&gt;
 
-&lt;p&gt;Check out the &lt;a href=&quot;https://jekyllrb.com/docs/home&quot;&gt;Jekyll docs&lt;/a&gt; for more info on how to get the most out of Jekyll. File all bugs/feature requests at &lt;a href=&quot;https://github.com/jekyll/jekyll&quot;&gt;Jekyll’s GitHub repo&lt;/a&gt;. If you have questions, you can ask them on &lt;a href=&quot;https://talk.jekyllrb.com/&quot;&gt;Jekyll Talk&lt;/a&gt;.&lt;/p&gt;</content><author><name></name></author><summary type="html">You’ll find this post in your _posts directory. Go ahead and edit it and re-build the site to see your changes. You can rebuild the site in many different ways, but the most common way is to run jekyll serve, which launches a web server and auto-regenerates your site when a file is updated.</summary></entry></feed>
+&lt;figure class=&quot;mb-2&quot;&gt;
+  &lt;img src=&quot;/assets/img/posts//empty-design-museum/08-The-Design-Museum-London-0942.jpg&quot;
+       alt=&quot;&quot;
+       class=&quot;border-radius mb-2&quot;
+  /&gt;
+  
+&lt;/figure&gt;
+
+&lt;figure class=&quot;mb-2&quot;&gt;
+  &lt;img src=&quot;/assets/img/posts//empty-design-museum/09-The-Design-Museum-London-0916.jpg&quot;
+       alt=&quot;&quot;
+       class=&quot;border-radius mb-2&quot;
+  /&gt;
+  
+&lt;/figure&gt;
+
+&lt;figure class=&quot;mb-2&quot;&gt;
+  &lt;img src=&quot;/assets/img/posts//empty-design-museum/10-The-Design-Museum-London-0790.jpg&quot;
+       alt=&quot;&quot;
+       class=&quot;border-radius mb-2&quot;
+  /&gt;
+  
+&lt;/figure&gt;
+
+&lt;figure class=&quot;mb-2&quot;&gt;
+  &lt;img src=&quot;/assets/img/posts//empty-design-museum/11-The-Design-Museum-London-0735.jpg&quot;
+       alt=&quot;&quot;
+       class=&quot;border-radius mb-2&quot;
+  /&gt;
+  
+&lt;/figure&gt;
+
+&lt;figure class=&quot;mb-2&quot;&gt;
+  &lt;img src=&quot;/assets/img/posts//empty-design-museum/12-The-Design-Museum-London-0780.jpg&quot;
+       alt=&quot;&quot;
+       class=&quot;border-radius mb-2&quot;
+  /&gt;
+  
+&lt;/figure&gt;
+
+&lt;figure class=&quot;mb-2&quot;&gt;
+  &lt;img src=&quot;/assets/img/posts//empty-design-museum/13-The-Design-Museum-London-0805.jpg&quot;
+       alt=&quot;&quot;
+       class=&quot;border-radius mb-2&quot;
+  /&gt;
+  
+&lt;/figure&gt;
+
+&lt;figure class=&quot;mb-2&quot;&gt;
+  &lt;img src=&quot;/assets/img/posts//empty-design-museum/14-The-Design-Museum-London-0760.jpg&quot;
+       alt=&quot;&quot;
+       class=&quot;border-radius mb-2&quot;
+  /&gt;
+  
+&lt;/figure&gt;
+
+&lt;figure class=&quot;mb-2&quot;&gt;
+  &lt;img src=&quot;/assets/img/posts//empty-design-museum/15-The-Design-Museum-London-0887.jpg&quot;
+       alt=&quot;&quot;
+       class=&quot;border-radius mb-2&quot;
+  /&gt;
+  
+&lt;/figure&gt;
+
+&lt;figure class=&quot;mb-2&quot;&gt;
+  &lt;img src=&quot;/assets/img/posts//empty-design-museum/16-The-Design-Museum-London-0813.jpg&quot;
+       alt=&quot;&quot;
+       class=&quot;border-radius mb-2&quot;
+  /&gt;
+  
+&lt;/figure&gt;
+
+&lt;figure class=&quot;mb-2&quot;&gt;
+  &lt;img src=&quot;/assets/img/posts//empty-design-museum/17-The-Design-Museum-London-0766.jpg&quot;
+       alt=&quot;&quot;
+       class=&quot;border-radius mb-2&quot;
+  /&gt;
+  
+&lt;/figure&gt;
+
+&lt;figure class=&quot;mb-2&quot;&gt;
+  &lt;img src=&quot;/assets/img/posts//empty-design-museum/18-The-Design-Museum-London-0956.jpg&quot;
+       alt=&quot;&quot;
+       class=&quot;border-radius mb-2&quot;
+  /&gt;
+  
+&lt;/figure&gt;
+
+&lt;figure class=&quot;mb-2&quot;&gt;
+  &lt;img src=&quot;/assets/img/posts//empty-design-museum/19-The-Design-Museum-London-0936.jpg&quot;
+       alt=&quot;&quot;
+       class=&quot;border-radius mb-2&quot;
+  /&gt;
+  
+&lt;/figure&gt;
+
+&lt;figure class=&quot;mb-2&quot;&gt;
+  &lt;img src=&quot;/assets/img/posts//empty-design-museum/20-The-Design-Museum-London-0714.jpg&quot;
+       alt=&quot;&quot;
+       class=&quot;border-radius mb-2&quot;
+  /&gt;
+  
+&lt;/figure&gt;</content><author><name>Dave Mullen Jnr</name></author><summary type="html">The Design Museum invited me, on behalf of my architecture photography project Geometry Club, to explore and photograph their new space before it opens to the public on 24th Nov 2016. The highlight was the enormity of the hyperbolic paraboloid roof. It has been beautifully exposed so that it could enjoyed from the inside. Here’s a selection of my photographs from the #emptydesignmuseum event.</summary></entry><entry><title type="html">LA to Vancouver</title><link href="http://localhost:4000/blog/la-to-vancouver/" rel="alternate" type="text/html" title="LA to Vancouver" /><published>2016-06-23T10:09:00+01:00</published><updated>2016-06-23T10:09:00+01:00</updated><id>http://localhost:4000/blog/la-to-vancouver</id><content type="html" xml:base="http://localhost:4000/blog/la-to-vancouver/">&lt;div class=&quot;video-wrapper mb-3 mb-md-4&quot;&gt;
+  &lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/_BuQetPVVrU?rel=0&quot; frameborder=&quot;0&quot; allowfullscreen&gt;&lt;/iframe&gt;
+&lt;/div&gt;
+
+&lt;div class=&quot;mb-3 mb-md-4&quot;&gt;
+  &lt;p&gt;Back in September 2015, &lt;a class=&quot;link-body&quot; href=&quot;https://instagram.com/mismaria&quot;&gt;Maria&lt;/a&gt; and I travelled to Los Angeles and steadily made our way up the pacific coast eventually crossing the boarder into Canada, finishing up in Vancouver, BC.&lt;/p&gt;
+  &lt;p&gt;Above is a short video I made of our trip as a memento for us and to share with our family and friends. And below is a selection of photographs I took along the way.&lt;/p&gt;
+&lt;/div&gt;
+
+&lt;figure class=&quot;mb-2&quot;&gt;
+  &lt;img src=&quot;/assets/img/posts//west-coast/Los-Angeles-to-Vancouver-Map.jpg&quot;
+       alt=&quot;&quot;
+       class=&quot;border-radius mb-2&quot;
+  /&gt;
+  &lt;span class=&quot;f7 f6-md mt-1 mb-3 mt-lg-2 text-right grey-dark block&quot;&gt;Our route, starting in Los Angeles and ending in Vancouver.&lt;/span&gt;
+&lt;/figure&gt;
+
+
+&lt;figure class=&quot;mb-2&quot;&gt;
+  &lt;img src=&quot;/assets/img/posts//west-coast/West-Coast-Hand-Lettering.jpg&quot;
+       alt=&quot;&quot;
+       class=&quot;border-radius mb-2&quot;
+  /&gt;
+  &lt;span class=&quot;f7 f6-md mt-1 mb-3 mt-lg-2 text-right grey-dark block&quot;&gt;Hand drawn lettering for use in the video.&lt;/span&gt;
+&lt;/figure&gt;
+
+
+&lt;figure class=&quot;mb-2&quot;&gt;
+  &lt;img src=&quot;/assets/img/posts//west-coast/west-coast-photography-dave-mullen-jnr-1.jpg&quot;
+       alt=&quot;&quot;
+       class=&quot;border-radius mb-2&quot;
+  /&gt;
+  
+&lt;/figure&gt;
+
+&lt;figure class=&quot;mb-2&quot;&gt;
+  &lt;img src=&quot;/assets/img/posts//west-coast/west-coast-photography-dave-mullen-jnr-2.jpg&quot;
+       alt=&quot;&quot;
+       class=&quot;border-radius mb-2&quot;
+  /&gt;
+  
+&lt;/figure&gt;
+
+&lt;figure class=&quot;mb-2&quot;&gt;
+  &lt;img src=&quot;/assets/img/posts//west-coast/west-coast-photography-dave-mullen-jnr-3.jpg&quot;
+       alt=&quot;&quot;
+       class=&quot;border-radius mb-2&quot;
+  /&gt;
+  
+&lt;/figure&gt;
+
+&lt;figure class=&quot;mb-2&quot;&gt;
+  &lt;img src=&quot;/assets/img/posts//west-coast/west-coast-photography-dave-mullen-jnr-4.jpg&quot;
+       alt=&quot;&quot;
+       class=&quot;border-radius mb-2&quot;
+  /&gt;
+  
+&lt;/figure&gt;
+
+&lt;figure class=&quot;mb-2&quot;&gt;
+  &lt;img src=&quot;/assets/img/posts//west-coast/west-coast-photography-dave-mullen-jnr-5.jpg&quot;
+       alt=&quot;&quot;
+       class=&quot;border-radius mb-2&quot;
+  /&gt;
+  
+&lt;/figure&gt;
+
+&lt;figure class=&quot;mb-2&quot;&gt;
+  &lt;img src=&quot;/assets/img/posts//west-coast/west-coast-photography-dave-mullen-jnr-6.jpg&quot;
+       alt=&quot;&quot;
+       class=&quot;border-radius mb-2&quot;
+  /&gt;
+  
+&lt;/figure&gt;
+
+&lt;figure class=&quot;mb-2&quot;&gt;
+  &lt;img src=&quot;/assets/img/posts//west-coast/west-coast-photography-dave-mullen-jnr-7.jpg&quot;
+       alt=&quot;&quot;
+       class=&quot;border-radius mb-2&quot;
+  /&gt;
+  
+&lt;/figure&gt;
+
+&lt;figure class=&quot;mb-2&quot;&gt;
+  &lt;img src=&quot;/assets/img/posts//west-coast/west-coast-photography-dave-mullen-jnr-8.jpg&quot;
+       alt=&quot;&quot;
+       class=&quot;border-radius mb-2&quot;
+  /&gt;
+  
+&lt;/figure&gt;
+
+&lt;figure class=&quot;mb-2&quot;&gt;
+  &lt;img src=&quot;/assets/img/posts//west-coast/west-coast-photography-dave-mullen-jnr-9.jpg&quot;
+       alt=&quot;&quot;
+       class=&quot;border-radius mb-2&quot;
+  /&gt;
+  
+&lt;/figure&gt;
+
+&lt;figure class=&quot;mb-2&quot;&gt;
+  &lt;img src=&quot;/assets/img/posts//west-coast/west-coast-photography-dave-mullen-jnr-10.jpg&quot;
+       alt=&quot;&quot;
+       class=&quot;border-radius mb-2&quot;
+  /&gt;
+  
+&lt;/figure&gt;
+
+&lt;figure class=&quot;mb-2&quot;&gt;
+  &lt;img src=&quot;/assets/img/posts//west-coast/west-coast-photography-dave-mullen-jnr-11.jpg&quot;
+       alt=&quot;&quot;
+       class=&quot;border-radius mb-2&quot;
+  /&gt;
+  
+&lt;/figure&gt;
+
+&lt;figure class=&quot;mb-2&quot;&gt;
+  &lt;img src=&quot;/assets/img/posts//west-coast/west-coast-photography-dave-mullen-jnr-12.jpg&quot;
+       alt=&quot;&quot;
+       class=&quot;border-radius mb-2&quot;
+  /&gt;
+  
+&lt;/figure&gt;
+
+&lt;figure class=&quot;mb-2&quot;&gt;
+  &lt;img src=&quot;/assets/img/posts//west-coast/west-coast-photography-dave-mullen-jnr-13.jpg&quot;
+       alt=&quot;&quot;
+       class=&quot;border-radius mb-2&quot;
+  /&gt;
+  
+&lt;/figure&gt;
+
+&lt;figure class=&quot;mb-2&quot;&gt;
+  &lt;img src=&quot;/assets/img/posts//west-coast/west-coast-photography-dave-mullen-jnr-14.jpg&quot;
+       alt=&quot;&quot;
+       class=&quot;border-radius mb-2&quot;
+  /&gt;
+  
+&lt;/figure&gt;
+
+&lt;figure class=&quot;mb-2&quot;&gt;
+  &lt;img src=&quot;/assets/img/posts//west-coast/west-coast-photography-dave-mullen-jnr-15.jpg&quot;
+       alt=&quot;&quot;
+       class=&quot;border-radius mb-2&quot;
+  /&gt;
+  
+&lt;/figure&gt;
+
+&lt;figure class=&quot;mb-2&quot;&gt;
+  &lt;img src=&quot;/assets/img/posts//west-coast/west-coast-photography-dave-mullen-jnr-16.jpg&quot;
+       alt=&quot;&quot;
+       class=&quot;border-radius mb-2&quot;
+  /&gt;
+  
+&lt;/figure&gt;
+
+&lt;figure class=&quot;mb-2&quot;&gt;
+  &lt;img src=&quot;/assets/img/posts//west-coast/west-coast-photography-dave-mullen-jnr-17.jpg&quot;
+       alt=&quot;&quot;
+       class=&quot;border-radius mb-2&quot;
+  /&gt;
+  
+&lt;/figure&gt;
+
+&lt;figure class=&quot;mb-2&quot;&gt;
+  &lt;img src=&quot;/assets/img/posts//west-coast/west-coast-photography-dave-mullen-jnr-18.jpg&quot;
+       alt=&quot;&quot;
+       class=&quot;border-radius mb-2&quot;
+  /&gt;
+  
+&lt;/figure&gt;
+
+&lt;figure class=&quot;mb-2&quot;&gt;
+  &lt;img src=&quot;/assets/img/posts//west-coast/west-coast-photography-dave-mullen-jnr-19.jpg&quot;
+       alt=&quot;&quot;
+       class=&quot;border-radius mb-2&quot;
+  /&gt;
+  
+&lt;/figure&gt;
+
+&lt;figure class=&quot;mb-2&quot;&gt;
+  &lt;img src=&quot;/assets/img/posts//west-coast/west-coast-photography-dave-mullen-jnr-20.jpg&quot;
+       alt=&quot;&quot;
+       class=&quot;border-radius mb-2&quot;
+  /&gt;
+  
+&lt;/figure&gt;
+
+&lt;figure class=&quot;mb-2&quot;&gt;
+  &lt;img src=&quot;/assets/img/posts//west-coast/west-coast-photography-dave-mullen-jnr-21.jpg&quot;
+       alt=&quot;&quot;
+       class=&quot;border-radius mb-2&quot;
+  /&gt;
+  
+&lt;/figure&gt;
+
+&lt;figure class=&quot;mb-2&quot;&gt;
+  &lt;img src=&quot;/assets/img/posts//west-coast/west-coast-photography-dave-mullen-jnr-22.jpg&quot;
+       alt=&quot;&quot;
+       class=&quot;border-radius mb-2&quot;
+  /&gt;
+  
+&lt;/figure&gt;
+
+&lt;figure class=&quot;mb-2&quot;&gt;
+  &lt;img src=&quot;/assets/img/posts//west-coast/west-coast-photography-dave-mullen-jnr-23.jpg&quot;
+       alt=&quot;&quot;
+       class=&quot;border-radius mb-2&quot;
+  /&gt;
+  
+&lt;/figure&gt;
+
+&lt;figure class=&quot;mb-2&quot;&gt;
+  &lt;img src=&quot;/assets/img/posts//west-coast/west-coast-photography-dave-mullen-jnr-24.jpg&quot;
+       alt=&quot;&quot;
+       class=&quot;border-radius mb-2&quot;
+  /&gt;
+  
+&lt;/figure&gt;
+
+&lt;figure class=&quot;mb-2&quot;&gt;
+  &lt;img src=&quot;/assets/img/posts//west-coast/west-coast-photography-dave-mullen-jnr-25.jpg&quot;
+       alt=&quot;&quot;
+       class=&quot;border-radius mb-2&quot;
+  /&gt;
+  
+&lt;/figure&gt;
+
+&lt;figure class=&quot;mb-2&quot;&gt;
+  &lt;img src=&quot;/assets/img/posts//west-coast/west-coast-photography-dave-mullen-jnr-26.jpg&quot;
+       alt=&quot;&quot;
+       class=&quot;border-radius mb-2&quot;
+  /&gt;
+  
+&lt;/figure&gt;
+
+&lt;figure class=&quot;mb-2&quot;&gt;
+  &lt;img src=&quot;/assets/img/posts//west-coast/west-coast-photography-dave-mullen-jnr-27.jpg&quot;
+       alt=&quot;&quot;
+       class=&quot;border-radius mb-2&quot;
+  /&gt;
+  
+&lt;/figure&gt;
+
+&lt;figure class=&quot;mb-2&quot;&gt;
+  &lt;img src=&quot;/assets/img/posts//west-coast/west-coast-photography-dave-mullen-jnr-28.jpg&quot;
+       alt=&quot;&quot;
+       class=&quot;border-radius mb-2&quot;
+  /&gt;
+  
+&lt;/figure&gt;
+
+&lt;figure class=&quot;mb-2&quot;&gt;
+  &lt;img src=&quot;/assets/img/posts//west-coast/west-coast-photography-dave-mullen-jnr-29.jpg&quot;
+       alt=&quot;&quot;
+       class=&quot;border-radius mb-2&quot;
+  /&gt;
+  
+&lt;/figure&gt;
+
+&lt;figure class=&quot;mb-2&quot;&gt;
+  &lt;img src=&quot;/assets/img/posts//west-coast/west-coast-photography-dave-mullen-jnr-30.jpg&quot;
+       alt=&quot;&quot;
+       class=&quot;border-radius mb-2&quot;
+  /&gt;
+  
+&lt;/figure&gt;
+
+&lt;figure class=&quot;mb-2&quot;&gt;
+  &lt;img src=&quot;/assets/img/posts//west-coast/west-coast-photography-dave-mullen-jnr-31.jpg&quot;
+       alt=&quot;&quot;
+       class=&quot;border-radius mb-2&quot;
+  /&gt;
+  
+&lt;/figure&gt;
+
+&lt;figure class=&quot;mb-2&quot;&gt;
+  &lt;img src=&quot;/assets/img/posts//west-coast/west-coast-photography-dave-mullen-jnr-32.jpg&quot;
+       alt=&quot;&quot;
+       class=&quot;border-radius mb-2&quot;
+  /&gt;
+  
+&lt;/figure&gt;</content><author><name>Dave Mullen Jnr</name></author><summary type="html"></summary></entry><entry><title type="html">Amsterdam</title><link href="http://localhost:4000/blog/amsterdam/" rel="alternate" type="text/html" title="Amsterdam" /><published>2016-04-12T10:09:00+01:00</published><updated>2016-04-12T10:09:00+01:00</updated><id>http://localhost:4000/blog/amsterdam</id><content type="html" xml:base="http://localhost:4000/blog/amsterdam/">&lt;div class=&quot;video-wrapper mb-3 mb-md-4&quot;&gt;
+  &lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/1uYd9p9Y4fw&quot; frameborder=&quot;0&quot; allowfullscreen&gt;&lt;/iframe&gt;
+&lt;/div&gt;
+
+&lt;div class=&quot;mb-3 mb-md-4&quot;&gt;
+  &lt;p&gt;A short video I made from a recent trip to Amsterdam. The footage was shot on Canon 6D with 50mm f1.4 lens and an iPhone 6s. Music by &lt;a class=&quot;link-body&quot; href=&quot;https://soundcloud.com/peaks-peaks/eros&quot;&gt;Peaks&lt;/a&gt;.&lt;/p&gt;
+&lt;/div&gt;
+
+&lt;figure class=&quot;mb-2&quot;&gt;
+  &lt;img src=&quot;/assets/img/posts//amsterdam/Amsterdam-blog-(1-of-9).jpg&quot;
+       alt=&quot;&quot;
+       class=&quot;border-radius mb-2&quot;
+  /&gt;
+  
+&lt;/figure&gt;
+
+&lt;figure class=&quot;mb-2&quot;&gt;
+  &lt;img src=&quot;/assets/img/posts//amsterdam/Amsterdam-blog-(2-of-9).jpg&quot;
+       alt=&quot;&quot;
+       class=&quot;border-radius mb-2&quot;
+  /&gt;
+  
+&lt;/figure&gt;
+
+&lt;figure class=&quot;mb-2&quot;&gt;
+  &lt;img src=&quot;/assets/img/posts//amsterdam/Amsterdam-blog-(3-of-9).jpg&quot;
+       alt=&quot;&quot;
+       class=&quot;border-radius mb-2&quot;
+  /&gt;
+  
+&lt;/figure&gt;
+
+&lt;figure class=&quot;mb-2&quot;&gt;
+  &lt;img src=&quot;/assets/img/posts//amsterdam/Amsterdam-blog-(4-of-9).jpg&quot;
+       alt=&quot;&quot;
+       class=&quot;border-radius mb-2&quot;
+  /&gt;
+  
+&lt;/figure&gt;
+
+&lt;figure class=&quot;mb-2&quot;&gt;
+  &lt;img src=&quot;/assets/img/posts//amsterdam/Amsterdam-blog-(5-of-9).jpg&quot;
+       alt=&quot;&quot;
+       class=&quot;border-radius mb-2&quot;
+  /&gt;
+  
+&lt;/figure&gt;
+
+&lt;figure class=&quot;mb-2&quot;&gt;
+  &lt;img src=&quot;/assets/img/posts//amsterdam/Amsterdam-blog-(6-of-9).jpg&quot;
+       alt=&quot;&quot;
+       class=&quot;border-radius mb-2&quot;
+  /&gt;
+  
+&lt;/figure&gt;
+
+&lt;figure class=&quot;mb-2&quot;&gt;
+  &lt;img src=&quot;/assets/img/posts//amsterdam/Amsterdam-blog-(7-of-9).jpg&quot;
+       alt=&quot;&quot;
+       class=&quot;border-radius mb-2&quot;
+  /&gt;
+  
+&lt;/figure&gt;
+
+&lt;figure class=&quot;mb-2&quot;&gt;
+  &lt;img src=&quot;/assets/img/posts//amsterdam/Amsterdam-blog-(8-of-9).jpg&quot;
+       alt=&quot;&quot;
+       class=&quot;border-radius mb-2&quot;
+  /&gt;
+  
+&lt;/figure&gt;
+
+&lt;figure class=&quot;mb-2&quot;&gt;
+  &lt;img src=&quot;/assets/img/posts//amsterdam/Amsterdam-blog-(9-of-9).jpg&quot;
+       alt=&quot;&quot;
+       class=&quot;border-radius mb-2&quot;
+  /&gt;
+  
+&lt;/figure&gt;</content><author><name>Dave Mullen Jnr</name></author><summary type="html"></summary></entry><entry><title type="html">New York City</title><link href="http://localhost:4000/blog/new-york-city/" rel="alternate" type="text/html" title="New York City" /><published>2015-04-15T10:09:00+01:00</published><updated>2015-04-15T10:09:00+01:00</updated><id>http://localhost:4000/blog/new-york-city</id><content type="html" xml:base="http://localhost:4000/blog/new-york-city/">&lt;div class=&quot;video-wrapper mb-3 mb-md-4&quot;&gt;
+  &lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/9B_TwAaYRis&quot; frameborder=&quot;0&quot; allowfullscreen&gt;&lt;/iframe&gt;
+&lt;/div&gt;
+
+&lt;div class=&quot;mb-3 mb-md-4&quot;&gt;
+  &lt;p&gt;I shot a bunch of video in New York on a recent visit with &lt;a class=&quot;link-body&quot; href=&quot;https://instagram.com/mismaria&quot;&gt;Maria&lt;/a&gt; (who’s in the film, a lot). I’ve had little experience with shooting and editing but wanted to give it a go, especially as i’d just bought a Canon 6D. I used my 50mm f1.8 lens throughout which gives it that nice shallow focus. I’ve since upgraded my 50mm lens to the f1.4 which is much sturdier and has a smoother manual focus ring.&lt;/p&gt;
+  &lt;p&gt;I edited the video with Adobe Premiere Pro. I should’ve used a simpler program because all the tools and options are a bit overwhelming for a first-time user. It took a few tutorials to find my way around.&lt;/p&gt;
+  &lt;p&gt;My idea was to make the video up of clips that lasted exactly 32 frames each (shot at 24 fps, each clip is 1.5 seconds long). I experimented with longer / shorter clips but 1.5 seconds seemed perfect. It gave the video a good pace without cutting between clips so fast that you can’t see what’s going on.&lt;/p&gt;
+  &lt;p&gt;The song used is &lt;a class=&quot;link-body&quot; href=&quot;https://open.spotify.com/track/79sv412UslJbXWRtqkSVGh?si=EsCNIUIdRbWtoRVGOKVM5A&quot;&gt;Daydream by Beach Fossils&lt;/a&gt;. There are a few reasons why this song works; it’s upbeat and energetic, the lyrics are relevent (to us) and the band are from Brooklyn which is where we spent most of our time.&lt;/p&gt;
+&lt;/div&gt;
+
+&lt;figure class=&quot;mb-2&quot;&gt;
+  &lt;img src=&quot;/assets/img/posts//nyc/New-York-City-1.jpg&quot;
+       alt=&quot;&quot;
+       class=&quot;border-radius mb-2&quot;
+  /&gt;
+  
+&lt;/figure&gt;
+
+&lt;figure class=&quot;mb-2&quot;&gt;
+  &lt;img src=&quot;/assets/img/posts//nyc/New-York-City-2.jpg&quot;
+       alt=&quot;&quot;
+       class=&quot;border-radius mb-2&quot;
+  /&gt;
+  
+&lt;/figure&gt;
+
+&lt;figure class=&quot;mb-2&quot;&gt;
+  &lt;img src=&quot;/assets/img/posts//nyc/New-York-City-3.jpg&quot;
+       alt=&quot;&quot;
+       class=&quot;border-radius mb-2&quot;
+  /&gt;
+  
+&lt;/figure&gt;
+
+&lt;figure class=&quot;mb-2&quot;&gt;
+  &lt;img src=&quot;/assets/img/posts//nyc/New-York-City-4.jpg&quot;
+       alt=&quot;&quot;
+       class=&quot;border-radius mb-2&quot;
+  /&gt;
+  
+&lt;/figure&gt;
+
+&lt;figure class=&quot;mb-2&quot;&gt;
+  &lt;img src=&quot;/assets/img/posts//nyc/New-York-City-5.jpg&quot;
+       alt=&quot;&quot;
+       class=&quot;border-radius mb-2&quot;
+  /&gt;
+  
+&lt;/figure&gt;
+
+&lt;figure class=&quot;mb-2&quot;&gt;
+  &lt;img src=&quot;/assets/img/posts//nyc/New-York-City-6.jpg&quot;
+       alt=&quot;&quot;
+       class=&quot;border-radius mb-2&quot;
+  /&gt;
+  
+&lt;/figure&gt;
+
+&lt;figure class=&quot;mb-2&quot;&gt;
+  &lt;img src=&quot;/assets/img/posts//nyc/New-York-City-7.jpg&quot;
+       alt=&quot;&quot;
+       class=&quot;border-radius mb-2&quot;
+  /&gt;
+  
+&lt;/figure&gt;
+
+&lt;figure class=&quot;mb-2&quot;&gt;
+  &lt;img src=&quot;/assets/img/posts//nyc/New-York-City-8.jpg&quot;
+       alt=&quot;&quot;
+       class=&quot;border-radius mb-2&quot;
+  /&gt;
+  
+&lt;/figure&gt;
+
+&lt;figure class=&quot;mb-2&quot;&gt;
+  &lt;img src=&quot;/assets/img/posts//nyc/New-York-City-9.jpg&quot;
+       alt=&quot;&quot;
+       class=&quot;border-radius mb-2&quot;
+  /&gt;
+  
+&lt;/figure&gt;
+
+&lt;figure class=&quot;mb-2&quot;&gt;
+  &lt;img src=&quot;/assets/img/posts//nyc/New-York-City-10.jpg&quot;
+       alt=&quot;&quot;
+       class=&quot;border-radius mb-2&quot;
+  /&gt;
+  
+&lt;/figure&gt;
+
+&lt;figure class=&quot;mb-2&quot;&gt;
+  &lt;img src=&quot;/assets/img/posts//nyc/New-York-City-11.jpg&quot;
+       alt=&quot;&quot;
+       class=&quot;border-radius mb-2&quot;
+  /&gt;
+  
+&lt;/figure&gt;
+
+&lt;figure class=&quot;mb-2&quot;&gt;
+  &lt;img src=&quot;/assets/img/posts//nyc/New-York-City-12.jpg&quot;
+       alt=&quot;&quot;
+       class=&quot;border-radius mb-2&quot;
+  /&gt;
+  
+&lt;/figure&gt;
+
+&lt;figure class=&quot;mb-2&quot;&gt;
+  &lt;img src=&quot;/assets/img/posts//nyc/New-York-City-13.jpg&quot;
+       alt=&quot;&quot;
+       class=&quot;border-radius mb-2&quot;
+  /&gt;
+  
+&lt;/figure&gt;
+
+&lt;figure class=&quot;mb-2&quot;&gt;
+  &lt;img src=&quot;/assets/img/posts//nyc/New-York-City-14.jpg&quot;
+       alt=&quot;&quot;
+       class=&quot;border-radius mb-2&quot;
+  /&gt;
+  
+&lt;/figure&gt;
+
+&lt;figure class=&quot;mb-2&quot;&gt;
+  &lt;img src=&quot;/assets/img/posts//nyc/New-York-City-15.jpg&quot;
+       alt=&quot;&quot;
+       class=&quot;border-radius mb-2&quot;
+  /&gt;
+  
+&lt;/figure&gt;
+
+&lt;figure class=&quot;mb-2&quot;&gt;
+  &lt;img src=&quot;/assets/img/posts//nyc/New-York-City-16.jpg&quot;
+       alt=&quot;&quot;
+       class=&quot;border-radius mb-2&quot;
+  /&gt;
+  
+&lt;/figure&gt;
+
+&lt;figure class=&quot;mb-2&quot;&gt;
+  &lt;img src=&quot;/assets/img/posts//nyc/New-York-City-17.jpg&quot;
+       alt=&quot;&quot;
+       class=&quot;border-radius mb-2&quot;
+  /&gt;
+  
+&lt;/figure&gt;
+
+&lt;figure class=&quot;mb-2&quot;&gt;
+  &lt;img src=&quot;/assets/img/posts//nyc/New-York-City-18.jpg&quot;
+       alt=&quot;&quot;
+       class=&quot;border-radius mb-2&quot;
+  /&gt;
+  
+&lt;/figure&gt;
+
+&lt;figure class=&quot;mb-2&quot;&gt;
+  &lt;img src=&quot;/assets/img/posts//nyc/New-York-City-19.jpg&quot;
+       alt=&quot;&quot;
+       class=&quot;border-radius mb-2&quot;
+  /&gt;
+  
+&lt;/figure&gt;</content><author><name>Dave Mullen Jnr</name></author><summary type="html"></summary></entry></feed>

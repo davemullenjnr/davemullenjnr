@@ -3,5 +3,47 @@ layout: default
 ---
 
 <div class="container mx-auto py-3 clearfix">
-{{ content }}
+  <!--hero image-->
+  {% if page.hero_image %}
+  <div class="mt-4 mb-4 px-2">
+  {% include project-hero-image.html %}
+  </div>
+  {% endif %}
+
+  <!--project description-->
+  <div class="mb-4 md-width-full col-6 px-2 clearfix">
+    <!--title-->
+    <h1 class="mt-0 mb-2 mb-lg-3 f2 f1-md lh-condensed">{{ page.title }}</h1>
+    <!--paragraph(s)-->
+    {% for description in page.description %}
+    <p class="f6 f5-md mb-2 mb-lg-3">{{ description.paragraph }}</p>
+    {% endfor %}
+    <!--tags-->
+    <span class="tags py-1 px-1 f7 uppercase ls-wide">
+    {% for tags in page.tags %}
+      {% if forloop.last == true %}
+        {{ tags.tag }}
+      {% else %}
+        {{ tags.tag }} —
+      {% endif %}
+    {% endfor %}
+    </span>
+  </div>
+  <!--project images-->
+  <div class="clearfix">
+  {% for image in page.images %}
+  {% if image.col_6 == true %}<div class="col-6 md-width-full left">{% endif %}
+  <div class="px-2 mb-2 mb-lg-3">
+    {% include project-image.html %}
+    {% if image.caption %}<p class="f7 f6-md mt-1 mb-2 mt-lg-2 mb-lg-3 text-right grey-dark">{{ image.caption }}</p>{% endif %}
+  </div>
+  {% if image.col_6 == true %}</div>{% endif %}
+  {% endfor %}
+  </div>
+
+  {{ content }}
+
+  <div class="px-2 mb-2 mb-lg-3 mt-3 mt-lg-4">
+    <a href="{{ site.baseurl }}/work" class="link-primary f6 f5-md mb-2 mb-lg-3">&larr; Go back and view all projects</a>
+  </div>
 </div>

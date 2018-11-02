@@ -1,44 +1,18 @@
-<!DOCTYPE html>
-<html>
+---
+layout: default
+---
 
-{% include head.html %}
-
-<body>
-
-  <header class="header-background clearfix">
-
-    {% include header.html %}
-
-    <div class="container mx-auto px-2">
-      <h1 class="f1 f-subh-md f-head-lg py-4 mt-3 mb-0">{{ page.title }}</h1>
-    </div>
-  </header>
-
-  <div class="container mx-auto py-3 clearfix">
-
-    {% include project-card.html url="/" title="Made By Maria" img540="ph-540px.jpg" img1080="ph-1080px.jpg" img1620="ph-1620px.jpg" alt="Made By Maria" %}
-    {% include project-card.html url="/" title="Geometry Club" img540="ph-540px.jpg" img1080="ph-1080px.jpg" img1620="ph-1620px.jpg" alt="Made By Maria" %}
-    {% include project-card.html url="/alvarez-kings" title="Alvarez Kings" img540="/projects/project-alvarez-kings-540px.jpg" img1080="/projects/project-alvarez-kings-1080px.jpg" img1620="/projects/project-alvarez-kings-1620px.jpg" alt="Alvarez Kings" %}
-    {% include project-card.html url="/alvarez-kings" title="Alvarez Kings" img540="/projects/alvarez-kings/alvarez-kings-the-otherside-of-sadness-cover-design-540px.jpg" img1080="/projects/alvarez-kings/alvarez-kings-the-otherside-of-sadness-cover-design-1080px.jpg" img1620="/projects/alvarez-kings/alvarez-kings-the-otherside-of-sadness-cover-design-1620px.jpg" alt="Alvarez Kings" %}
-
-    <!-- project card start -->
-    <div class="col-12 sm-width-full left px-2 mb-4">
-      <a class="header-background block mb-2" href="/">
-        <img
-        srcset="/assets/img/ph-540px.jpg 540w,
-                /assets/img/ph-1080px.jpg 1080w,
-                /assets/img/ph-1620px.jpg 1620w,"
-         sizes="(max-width: 540px) 540px, 1080px"
-         src="/assets/img/ph-1080px.jpg" alt="placeholder"/>
-      </a>
-      <a class="f5 f4-lg link-primary" href="/">Project Title</a>
-    </div>
-    <!-- project card end -->
-
+<section class="header-background clearfix">
+  <div class="container mx-auto px-2">
+    <h1 class="f1 f-subh-md f-head-lg py-4 mt-3 mb-0">{{ page.title }}</h1>
   </div>
+</section>
 
-  {% include footer.html %}
-
-</body>
-
-</html>
+<div class="container mx-auto py-3 clearfix">
+  <!-- project card new start -->
+  {% assign projects = site.projects | sort: 'order' %}
+    {% for project in projects %}
+      {% include project-card.html %}
+    {% endfor %}
+  <!-- project card new end -->
+</div>

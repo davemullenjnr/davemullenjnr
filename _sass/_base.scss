@@ -62,11 +62,15 @@ a {
   text-decoration: none;
 }
 
-a:hover {
+/* a:hover {
   text-decoration: underline;
-}
+} */
 
 img {
   width: 100%;
   display: inherit;
+}
+
+::selection {
+  background: rgba(255,230,49,.5);
 }

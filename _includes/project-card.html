@@ -1,10 +1,10 @@
-<div class="col-6 sm-width-full left px-2 mb-4 project-card">
-  <a class="header-background block mb-2" href="{{ include.url }}">
-    <img srcset="/assets/img/{{ include.img540 }} 540w,
-                 /assets/img/{{ include.img1080 }} 1080w,
-                 /assets/img/{{ include.img1620 }} 1620w,"
+<div class="col-6 sm-width-full left px-2 mb-4">
+  <a class="header-background block mb-2 link-image" href="{{ project.permalink }}">
+    <img srcset="/assets/img/{{ project.project_image }}-540px.jpg 540w,
+                 /assets/img/{{ project.project_image }}-1080px.jpg 1080w,
+                 /assets/img/{{ project.project_image }}-1620px.jpg 1620w,"
          sizes="(max-width: 560px) 100vw, 50vw"
-         src="/assets/img/{{ include.img540 }}" alt="{{ include.alt }}" class="border-radius"/>
+         src="/assets/img/{{ project.project_image }}-540px.jpg" alt="{{ project.title }}" class="border-radius"/>
   </a>
-  <a class="f5 f4-lg link-primary" href="{{ include.url }}">{{ include.title }}</a>
+  <a class="f5 f4-lg link-primary" href="{{ project.permalink }}">{{ project.title }}</a>
 </div>
