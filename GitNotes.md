@@ -10,9 +10,6 @@ published: false
 ## Stop server
     ctrl-c
 
-## Run with administrative privileges
-    sudo (before command)
-
 ## See what files have been modified
     git status
 
@@ -21,10 +18,12 @@ published: false
     git commit -m "description"  
     git push
 
+## Setting your local branch to exactly match the remote branch
+    git fetch origin
+    git reset --hard origin/master
 
 ## Update Gems
     bundle update
-
 
 ## The current folder will be generated into site folder
     jekyll build
