@@ -9,7 +9,7 @@ hero_alt: Bricklane.com property photography
 tags:
   - tag: Photography
 description:
-  - paragraph: <a class="link" href="https://bricklane.com">Bricklane.com</a> is an online investment platform enabling everyone to invest in expertly chosen property portfolios.
+  - paragraph: <a class="link-body" href="https://bricklane.com">Bricklane.com</a> is an online investment platform enabling everyone to invest in expertly chosen property portfolios.
   - paragraph: I have been photographing Bricklane's properties and capturing the vitality of each city to showcase the local area.
 images:
   - image_path: bricklane/bricklane-dave-mullen-jnr-1

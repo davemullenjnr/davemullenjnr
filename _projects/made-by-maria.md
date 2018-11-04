@@ -13,7 +13,7 @@ tags:
 description:
   - paragraph: A branding project for Sheffield based textile designer Maria Nightingale.
   - paragraph: The lettering was done by hand with a brush pen and then traced and vectorised in Adobe Illustrator. The bird element was drawn directly in Adobe Illustrator. Maria water-coloured several birds which we then traced and had printed on to fabric to make her products with (see photographs below).
-  - paragraph: Follow <a class="link" href="https://instagram.com/allmadebymaria">@allmadebymaria</a> on Instagram.
+  - paragraph: Follow <a class="link-body" href="https://instagram.com/allmadebymaria">@allmadebymaria</a> on Instagram.
 images:
   - image_path: made-by-maria/made-by-maria-bird-logo-on-apron
     image_alt: Made By Maria bird logo print onto a black apron

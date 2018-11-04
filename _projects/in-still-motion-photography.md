@@ -11,7 +11,7 @@ tags:
 description:
   - paragraph: Brand design for Liam Rimmington’s, In Still Motion Photography. Liam is a talented landscape, portrait, and still-life photographer from Sheffield.
   - paragraph: Working with Liam was such a pleasure and a great experience. After our initial conversation it was clear that Liam wanted something clean and minimal with a handmade, tactile quality to it. A hand lettered logo was the perfect solution to embody the desired aesthetic.
-  - paragraph: View Liam’s work at <a class="link" href="https://instillmotion.co">instillmotion.co</a>
+  - paragraph: View Liam’s work at <a class="link-body" href="https://instillmotion.co">instillmotion.co</a>
 images:
   - image_path: in-still-motion-photography/in-still-motion-photography-business-card
     image_alt: In Still Motion Photography business card

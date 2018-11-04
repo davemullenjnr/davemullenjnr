@@ -10,7 +10,7 @@ tags:
   - tag: Branding
   - tag: Graphic Design
 description:
-  - paragraph: Logo design for <a class="link" href="https://instagram.com/peakscollective">Peaks Collective</a>, a community of adventurers & creators that share a love for the Peak District National Park.
+  - paragraph: Logo design for <a class="link-body" href="https://instagram.com/peakscollective">Peaks Collective</a>, a community of adventurers & creators that share a love for the Peak District National Park.
   - paragraph: The logo combines three characteristics of the brand. A hand-drawn aesthetic communicates the artistic and creative side of the community, I shaped the 'T' to symbolise a plus sign [+] which represents the collaborative and inclusive aspect, and the layered composition of the lettering is a defining characteristic of the Derbyshire landscape.
 images:
   - image_path: peaks-collective/peaks-collective-logo
