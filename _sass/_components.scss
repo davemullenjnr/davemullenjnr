@@ -2,7 +2,7 @@
 .badge {
   position: relative;
   vertical-align: top;
-  padding: $spacer-1 / 2 $spacer-1;
+  padding: $spacer-1 / 4;
   background-color: $brand;
   color: $white;
   top: $spacer-1;
@@ -10,6 +10,7 @@
 
   @media (min-width: $breakpoint-md) {
    top: $spacer-2;
+   padding: $spacer-1 / 2;
   }
 }
 
