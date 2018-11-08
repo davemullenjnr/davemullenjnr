@@ -2,7 +2,7 @@
 <html>
 
   {% include head.html %}
-
+  
   <body>
     <div class="fixed top-0 left-0 right-0">
       {% include header.html %}
@@ -15,7 +15,9 @@
             <h1 class="f2 f-subh-md f-head-lg mt-0 mb-0">Designer</h1>
             <h1 class="f2 f-subh-md f-head-lg mt-0 mb-0">Photographer</h1>
             <h1 class="f2 f-subh-md f-head-lg mt-0 mb-0 inline-block">Developer</h1><span class="f7 f6-md mt-2 ml-2 px-1 badge ls-wide uppercase">WIP</span>
-            <h3 class="f5 f4-md mt-0 mb-0 norm">Sheffield 🇬🇧</h3>
+            
+            <h3 class="f5 f4-md mt-0 mb-0 norm block" onmouseover="changeText(this,'Aye-up 🍻')" onmouseout="changeText(this,'Sheffield 🇬🇧')">Sheffield 🇬🇧</h3>
+            
           </div>
         </div>
     </div>
@@ -24,5 +26,11 @@
       {% include footer.html %}
     </div>
   </body>
+
+  <script type="text/javascript">
+    function changeText(obj, text) {
+        obj.innerText = text;
+    }
+</script>
 
 </html>
