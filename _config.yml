@@ -19,7 +19,7 @@ email: dave@davemullenjnr.co.uk
 description: >- # this means to ignore newlines until "baseurl:"
   Dave Mullen Jnr — Graphic designer and front-end web developer living in Sheffield, UK.
 baseurl: "" # the subpath of your site, e.g. /blog
-url: "http://davemullenjnr.co.uk" # the base hostname & protocol for your site, e.g. http://example.com
+url: "https://davemullenjnr.co.uk" # the base hostname & protocol for your site, e.g. http://example.com
 twitter_username: davemullenjnr
 github_username: davemullenjnr
 social_username: davemullenjnr
