@@ -3,6 +3,7 @@ layout: project
 order: 5
 title: HoodieHut
 permalink: /hoodiehut/
+redirect_from: /blog/hoodiehut/
 project_image: projects/project-hoodiehut
 hero_image: hoodiehut/hoodiehut-hoodies-on-rail
 hero_alt: hoodiehut
