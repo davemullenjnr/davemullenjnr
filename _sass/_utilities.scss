@@ -7,10 +7,7 @@
 .f-head, .f-subh, .f-head-md, .f-subh-md, .f-head-lg, .f-subh-lg {
   line-height: 1.2;
   word-wrap: break-word;
-
-  &::first-letter {
-    margin-left: -0.05em;
-  }
+  margin-left: -0.05em;
 }
 
 // Typescale
