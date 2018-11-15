@@ -22,7 +22,7 @@ images:
     image_alt: HoodieHut business cards
   - image_path: hoodiehut/hoodiehut-leavers-hoodies
     image_alt: HoodieHut leavers hoodies photo
-  - image_path: hoodiehut/hoodiehut-hoodiehut-hoodies-on-rail
+  - image_path: hoodiehut/hoodiehut-hoodies-on-rail
     image_alt: HoodieHut hoodies on a rail
   - image_path: hoodiehut/hoodiehut-school-leavers-hoodie
     image_alt: HoodieHut school leavers hoodies
