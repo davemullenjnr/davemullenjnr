@@ -72,8 +72,13 @@
 
 // Link styles
 
-.active {
-  border-bottom-color: $brand;
+// Link
+.link {
+  text-decoration: none;
+
+  &:hover {
+    text-decoration: underline;
+  }
 }
 
 // Links within paragraph text
@@ -85,6 +90,16 @@
 
   &:hover {
     border-color: $brand;
+  }
+}
+
+// Links on my profile page
+.link-profile {
+  text-decoration: underline;
+  text-decoration-color: $grey-dark;
+
+  &:hover {
+    color: $grey-dark;
   }
 }
 
@@ -101,18 +116,6 @@
   }
 }
 
-
-// Link styles for social icons
-.link-social {
-  text-decoration: none;
-  font-weight: bold;
-  line-height: 1;
-
-  &:hover {
-    text-decoration: none !important;
-  }
-}
-
 // Link styles for navigation
 .link-primary {
   text-decoration: none;
@@ -123,19 +126,7 @@
     text-decoration: none;
     border-bottom-color: $brand;
   }
-
 }
-
-// Link styles for post titles
-/*
-.link-post {
-  transition: ease-in-out .1s;
-
-  &:hover {
-    color: $grey-dark;
-  }
-}
-*/
 
 // Image as a link
 .link-image {
@@ -145,4 +136,10 @@
   img:hover {
     opacity: 0.8;
   }
+}
+
+// Dark mode overrides
+.dark-mode {
+  background-color: $black;
+  color: $white;
 }
