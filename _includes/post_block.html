@@ -7,7 +7,7 @@
   </a>
   <p class="f6 text-accent right sm-width-full">{{ post.date | date: "%b %-d, %Y" }}</p>
   <h2 class="f2 lh-condensed col-9 mt-0">
-    <a class="link-primary" title="{{ post.url | prepend: site.baseurl }}" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
+    <a class="link" title="{{ post.url | prepend: site.baseurl }}" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
   </h2>
-  <p class="f5 col-9 sm-width-full">{{ post.content | strip_html | truncatewords:30 }}</p>
+  <p class="f6 col-9 sm-width-full">{{ post.content | strip_html | truncatewords:30 }}</p>
 </div>
