@@ -34,7 +34,9 @@ body {
     font-size: $body-font-size;
     line-height: 1.8;
     color: $color-body-text;
-    background-color: #fff;
+    background-color: $white;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
 }
 
 p {
