@@ -6,6 +6,7 @@ permalink: /in-still-motion-photography/
 project_image: projects/project-in-still-motion-photography
 hero_image: in-still-motion-photography/in-still-motion-photography-logo-design
 hero_alt: In Still Motion Photography logo design
+category: work
 tags:
   - tag: Branding
 description:

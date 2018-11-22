@@ -6,6 +6,7 @@ permalink: /geometry-club/
 project_image: projects/project-geometry-club
 hero_image: geometry-club/Geometry-Club-grid-of-twelve
 hero_alt: Geometry Club by Dave Mullen Jnr
+category: work
 tags:
   - tag: Branding
   - tag: Photography

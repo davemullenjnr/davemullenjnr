@@ -7,6 +7,7 @@ redirect_from: /blog/bricklane-property-investment/
 project_image: projects/project-bricklane
 hero_image: bricklane/bricklane-dave-mullen-jnr-30
 hero_alt: Bricklane.com property photography
+category: work
 tags:
   - tag: Photography
 description:

@@ -6,6 +6,7 @@ permalink: /alvarez-kings/
 project_image: projects/project-alvarez-kings
 hero_image: alvarez-kings/alvarez-kings-logo-design
 hero_alt: Alvarez Kings branding
+category: work
 tags:
   - tag: Branding
   - tag: Graphic Design

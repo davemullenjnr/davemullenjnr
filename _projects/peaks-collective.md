@@ -6,6 +6,7 @@ permalink: /peaks-collective/
 project_image: projects/project-peaks-collective
 hero_image: peaks-collective/peaks-collective-logo-design
 hero_alt: Peaks Collective logo design
+category: work
 tags:
   - tag: Branding
   - tag: Graphic Design

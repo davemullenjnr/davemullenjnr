@@ -5,6 +5,7 @@ title: Logo Design
 permalink: /logo-design/
 project_image: projects/project-logo-design
 hero_alt: logo design by dave mullen jnr
+category: work
 tags:
   - tag: Branding
   - tag: Graphic Design

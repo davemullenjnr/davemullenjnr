@@ -6,6 +6,7 @@ permalink: /made-by-maria/
 project_image: projects/project-made-by-maria
 hero_image: made-by-maria/made-by-maria-logo-on-t-shirt
 hero_alt: Made By Maria branding
+category: work
 tags:
   - tag: Branding
   - tag: Graphic Design
