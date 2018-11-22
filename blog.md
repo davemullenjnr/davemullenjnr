@@ -3,5 +3,6 @@
 layout: blog
 title: Blog
 permalink: blog
+category: blog
 header_background: true
 ---
