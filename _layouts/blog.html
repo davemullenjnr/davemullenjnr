@@ -2,13 +2,7 @@
 layout: default
 ---
 
-<section class="header-background clearfix">
-  <div class="container mx-auto px-2">
-    <h1 class="f1 f-subh-md f-head-lg py-4 mt-3 mb-0">{{ page.title }}</h1>
-  </div>
-</section>
-
-<div class="container mx-auto py-3 px-2 clearfix">
+<div class="container mx-auto py-2 px-2 clearfix mt-2 mt-md-4">
   <!-- blog posts start -->
     {% for post in site.posts %}
       {% include post_block.html %}
