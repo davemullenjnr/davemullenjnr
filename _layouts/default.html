@@ -1,9 +1,9 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 
   {% include head.html %}
 
-  <body>
+  <body {% if page.theme == "dark" %}class="dark-mode"{% endif %}>
 
     {% include header.html %}
 
