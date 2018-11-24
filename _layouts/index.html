@@ -1,36 +1,37 @@
 <!DOCTYPE html>
 <html lang="en">
 
-  {% include head.html %}
-  
-  <body>
-    <div class="fixed top-0 left-0 right-0">
-      {% include header.html %}
-    </div>
+{% include head.html %}
 
-    <div class="flex vh-100">
-      <div class="container px-2 my-auto mx-md-auto">
-          <div class="container">
-            <h3 class="f5 f4-md mt-0 mb-0 norm">{{ site.author }}</h3>
-            <h1 class="f2 f-subh-md f-head-lg mt-0 mb-0">Designer</h1>
-            <h1 class="f2 f-subh-md f-head-lg mt-0 mb-0">Photographer</h1>
-            <h1 class="f2 f-subh-md f-head-lg mt-0 mb-0 inline-block">Developer</h1><span class="f7 f6-md mt-2 ml-2 px-1 badge ls-wide uppercase">WIP</span>
-            
-            <h3 class="f5 f4-md mt-0 mb-0 norm block"><span class="sheffield" onmouseover="changeText(this,'Ay-up 🍻')" onmouseout="changeText(this,'Sheffield 🇬🇧')">Sheffield 🇬🇧</span></h3>
-            
-          </div>
-        </div>
-    </div>
+<body>
+  <div class="fixed top-0 left-0 right-0">
+    {% include header.html %}
+  </div>
 
-    <div class="fixed bottom-0 left-0 right-0">
-      {% include footer.html %}
-    </div>
-  </body>
+  <div class="flex vh-100">
+    <div class="container px-2 my-auto mx-md-auto">
+      <div class="container">
+        <h3 class="f5 f4-md mt-0 mb-0 norm">{{ site.author }}</h3>
+        <h1 class="f2 f-subh-md f-head-lg mt-0 mb-0">Designer</h1>
+        <h1 class="f2 f-subh-md f-head-lg mt-0 mb-0">Photographer</h1>
+        <h1 class="f2 f-subh-md f-head-lg mt-0 mb-0 inline-block">Developer</h1><span class="f7 f6-md mt-2 ml-2 px-1 badge ls-wide uppercase">WIP</span>
 
-  <script>
-    function changeText(obj, text) {
-        obj.innerText = text;
-      }
+        <h3 class="f5 f4-md mt-0 mb-0 norm block"><span class="sheffield" onmouseover="changeText(this,'Ay-up 🍻')"
+            onmouseout="changeText(this,'Sheffield 🇬🇧')">Sheffield 🇬🇧</span></h3>
+
+      </div>
+    </div>
+  </div>
+
+  <div class="fixed bottom-0 left-0 right-0">
+    {% include footer.html %}
+  </div>
+</body>
+
+<script>
+  function changeText(obj, text) {
+    obj.innerText = text;
+  }
 </script>
 
 </html>
