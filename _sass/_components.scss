@@ -3,7 +3,7 @@
   position: relative;
   vertical-align: top;
   padding: $spacer-1 / 4;
-  background-color: $brand;
+  background-color: $brand;      
   color: $white;
   top: $spacer-1;
   border-radius: 0.25em;
@@ -50,7 +50,6 @@
     max-width: 240px;
    }
 }
-
 
 //project tags component
 .tags {
