@@ -50,17 +50,12 @@
 .text-right { text-align: right; }
 .text-center { text-align: center; }
 
-
+// text transform
 .norm { font-weight: normal; }
 .bold { font-weight: bold; }
 .uppercase { text-transform: uppercase; }
 .lh-condensed { line-height: 1.2; }
 .ls-wide { letter-spacing: 0.1em; }
-
-.list-reset {
-  list-style: none;
-  padding-left: 0;
-}
 
 .underline { 
   text-decoration: underline; 
@@ -83,28 +78,22 @@
 .grey-mid { color: $grey-mid; }
 .grey-dark { color: $grey-dark; }
 
+// list reset
+.list-reset {
+  list-style: none;
+  padding-left: 0;
+}
 
 /* Border utilities */
-.border-bottom-thick { border-bottom: 2px solid; border-color: currentColor; }
-.border-bottom-thin { border-bottom: 1px solid; border-color: currentColor; }
-.border-top-thick { border-top: 2px solid; border-color: currentColor; }
-.border-top-thin { border-top: 1px solid; border-color: currentColor; }
-.border-0 { border: 0; }
 .border-radius { border-radius: $spacer / 4; }
 
 
 /* Theme color utilities */
 .header-background { background-color: $color-background; }
-.header-border { border-color: $color-foreground; }
-.header-title { color: $color-title; }
-.header-text { color: $color-foreground; }
-.header-social { fill: $color-foreground; }
-.header-social-accent { fill: $color-dot-accent; }
-.header-link:hover { color: $color-nav-link !important; } // used for navigation links on homepage
-.text-accent { color: $color-text-accent; } // used for date in post list and home link
 
 /* Layout utilities */
-.container { max-width: $container-width-xl; 
+.container {
+  max-width: $container-width-xl; 
   
   @media (max-width: 96em) {
     max-width: $container-width;
@@ -299,16 +288,6 @@
 
 // Viewport Height
 .vh-100 {height: 100vh; min-height: 400px;}
-.vh-90 {height: 90vh; min-height: 400px;}
-.vh-80 {height: 80vh; min-height: 400px;}
-.vh-70 {height: 70vh; min-height: 400px;}
-.vh-60 {height: 60vh; min-height: 400px;}
-.vh-50 {height: 50vh; min-height: 400px;}
-.vh-40 {height: 40vh; min-height: 400px;}
-.vh-30 {height: 30vh; min-height: 400px;}
-.vh-20 {height: 20vh; min-height: 400px;}
-.vh-10 {height: 10vh; min-height: 400px;}
-
 
 //Positioning
 .fixed {position: fixed;}
@@ -317,6 +296,7 @@
 .right-0 {right: 0;}
 .left-0 {left: 0;}
 
+// z-index
 .z-1 { z-index: -1 }
 .z0 { z-index: 0 }
 .z1 { z-index: 1 }
