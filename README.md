@@ -1,4 +1,3 @@
 # davemullenjnr.co.uk
 
-Built with Jekyll /
-Hosted on GitHub Pages
+Graphic designer and front-end web developer living in Sheffield, UK.
