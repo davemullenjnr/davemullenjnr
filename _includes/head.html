@@ -4,8 +4,22 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <link rel="icon" type="image/png" href="/assets/favicon.ico"/>
 
-  <title>{% if page.title %}{{ site.title | escape }} — {{ page.title | escape }}{% else %}{{ site.title | escape }}{% endif %}</title>
-  <meta name="description" content="{% if page.excerpt %}{{ page.excerpt | strip_html | strip_newlines | truncate: 160 }}{% else %}{{ site.description }}{% endif %}">
+  <!-- meta data -->
+  <title>{% if page.title %}{{ page.title | escape }} — {{ site.title | escape }}{% else %}{{ site.title | escape }}{% endif %}</title>
+  <meta name="description"            content="{% if page.excerpt %}{{ page.excerpt | strip_html | strip_newlines | truncate: 160 }}{% else %}{{ site.description }}{% endif %}" />
+  <meta name="author"                 content="Dave Mullen Jnr" />
+  
+  <meta property="og:site_name"       content="Dave Mullen Jnr" />
+  <meta property="og:description"     content="{% if page.excerpt %}{{ page.excerpt | strip_html | strip_newlines | truncate: 160 }}{% else %}{{ site.description }}{% endif %}" />
+  <meta property="og:title"           content="{% if page.title %}{{ page.title | escape }} — {{ site.title | escape }}{% else %}{{ site.title | escape }}{% endif %}" />
+  <meta property="og:locale"          content="en_GB" />
+  <meta property="og:url"             content="{{ page.url | replace:'index.html','' | prepend: site.baseurl | prepend: site.url }}" />
+  <meta property="og:type"            content="website">
+
+  <meta name="twitter:title"          content="{% if page.title %}{{ page.title | escape }} — {{ site.title | escape }}{% else %}{{ site.title | escape }}{% endif %}">
+  <meta name="twitter:description"    content="{% if page.excerpt %}{{ page.excerpt | strip_html | strip_newlines | truncate: 160 }}{% else %}{{ site.description }}{% endif %}">
+  <meta name="twitter:url"            content="{{ page.url | replace:'index.html','' | prepend: site.baseurl | prepend: site.url }}">
+  <meta name="twitter:creator"        content="@davemullenjnr">
 
   {% assign user_url = site.url | append: site.baseurl %}
   {% assign full_base_url = user_url | default: site.github.url %}

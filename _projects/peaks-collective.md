@@ -2,6 +2,7 @@
 layout: project
 order: 4
 title: Peaks Collective
+excerpt: Logo design for Peaks Collective, a community of adventurers & creators that share a love for the Peak District National Park.
 permalink: /peaks-collective/
 project_image: projects/project-peaks-collective
 hero_image: peaks-collective/peaks-collective-logo-design

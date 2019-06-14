@@ -2,6 +2,7 @@
 layout: project
 order: 1
 title: Geometry Club
+excerpt: Branding, graphic design, and ios app design for architecture photography project, Geometry Club.
 permalink: /geometry-club/
 project_image: projects/project-geometry-club
 hero_image: geometry-club/Geometry-Club-grid-of-twelve

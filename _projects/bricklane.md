@@ -2,6 +2,7 @@
 layout: project
 order: 6
 title: Bricklane.com
+excerpt: Real estate photography for online property market investment platform, Bricklane.com
 permalink: /bricklane/
 redirect_from: /blog/bricklane-property-investment/
 project_image: projects/project-bricklane

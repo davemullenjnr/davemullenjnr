@@ -2,6 +2,7 @@
 layout: project
 order: 7
 title: Made By Maria
+excerpt: Brand design for Sheffield based textile designer Maria Nightingale.
 permalink: /made-by-maria/
 project_image: projects/project-made-by-maria
 hero_image: made-by-maria/made-by-maria-logo-on-t-shirt

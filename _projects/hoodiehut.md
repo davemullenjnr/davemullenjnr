@@ -2,6 +2,7 @@
 layout: project
 order: 5
 title: HoodieHut
+excerpt: Branding, photography, and digital design for Sheffield hoodie printing company, HoodieHut.
 permalink: /hoodiehut/
 redirect_from: /blog/hoodiehut/
 project_image: projects/project-hoodiehut

@@ -2,6 +2,7 @@
 layout: project
 order: 3
 title: In Still Motion Photography
+excerpt: Brand design for local Sheffield photography business, In Still Motion Photography.
 permalink: /in-still-motion-photography/
 project_image: projects/project-in-still-motion-photography
 hero_image: in-still-motion-photography/in-still-motion-photography-logo-design

@@ -2,6 +2,7 @@
 layout: project
 order: 8
 title: Logo Design
+excerpt: A selection of branding and logo design.
 permalink: /logo-design/
 project_image: projects/project-logo-design
 hero_alt: logo design by dave mullen jnr

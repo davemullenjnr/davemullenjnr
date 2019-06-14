@@ -2,6 +2,7 @@
 layout: project
 order: 2
 title: Alvarez Kings
+excerpt: Brand design and cover artwork for Alvarez Kings, a four-piece indie/pop band from Sheffield, UK.
 permalink: /alvarez-kings/
 project_image: projects/project-alvarez-kings
 hero_image: alvarez-kings/alvarez-kings-logo-design
