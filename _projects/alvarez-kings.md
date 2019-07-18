@@ -32,6 +32,8 @@ images:
     image_alt: Alvarez Kings - Postcards from Berlin
   - image_path: alvarez-kings/alvarez-kings-cold-conscience-cover-design
     image_alt: Alvarez Kings - Cold Conscience
+  - image_path: alvarez-kings/alvarez-kings-invincible-cover-design
+    image_alt: Alvarez Kings - Invincible
   - image_path: alvarez-kings/alvarez-kings-stacked-typographic-logo-t-shirt
     image_alt: Alvarez Kings — Stacked typographic logo t-shirt design
     col_6: true
