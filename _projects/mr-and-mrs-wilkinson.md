@@ -17,17 +17,17 @@ description:
   - paragraph: Visit the website at <a class="link-body" href="https://thewilkinsons.netlify.com/">thewilkinsons.netlify.com</a>
 images:
   - image_path: mr-and-mrs-wilkinson/mr-and-mrs-wilkinson-bride-family
-    image_alt: 
+    image_alt: A photograph of the bride and bridesmaids
   - image_path: mr-and-mrs-wilkinson/mr-and-mrs-wilkinson-boy
-    image_alt: 
+    image_alt: young boy at the entrance to the alter
   - image_path: mr-and-mrs-wilkinson/mr-and-mrs-wilkinson-bride
-    image_alt: 
+    image_alt: A photograph of the bride in the church
   - image_path: mr-and-mrs-wilkinson/mr-and-mrs-wilkinson-church
-    image_alt: 
+    image_alt: Photograph of the church tower with trees in the foreground
   - image_path: mr-and-mrs-wilkinson/mr-and-mrs-wilkinson-girl-bouquet
-    image_alt: 
+    image_alt: a young girl holding the brides bouquet
   - image_path: mr-and-mrs-wilkinson/mr-and-mrs-wilkinson-wedding-flowers
-    image_alt: 
+    image_alt: A close-up photograph of the brides flowers
   - image_path: mr-and-mrs-wilkinson/mr-and-mrs-wilkinson-groom-bride
-    image_alt: 
+    image_alt: A photograph of the bride and groom looking out into the Pyrenees mountains
 ---
