@@ -5,5 +5,5 @@
    sizes="(max-width: 540px) 540px, 1080px"
    src="/assets/img/projects/{{ image.image_path }}-1080px.jpg"
    alt="{{ image.image_alt }}"
-   class="border-radius"
+   class="border-radius{% if image.border == true %} image-border{% endif %}"
 />

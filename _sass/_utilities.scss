@@ -87,6 +87,8 @@
 /* Border utilities */
 .border-radius { border-radius: $spacer / 4; }
 
+/* Image border */
+.image-border { border: $spacer / 8 solid $grey-light; }
 
 /* Theme color utilities */
 .header-background { background-color: $color-background; }
