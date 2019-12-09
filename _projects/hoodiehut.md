@@ -14,7 +14,7 @@ tags:
   - tag: Web Design
   - tag: Photography
 description:
-  - paragraph: HoodieHut is a garment printing company based in Sheffield. They specialise in <a class="link-body" href="https://hoodiehut.co.uk/ski-hoodies">ski trip hoodies</a> and <a class="link-body" href="https://hoodiehut.co.uk/leavers-hoodies">leavers hoodies</a> for schools, colleges, and universities.
+  - paragraph: HoodieHut is a garment printing company based in Sheffield. They specialise in <a class="link-body" href="https://www.hoodiehut.co.uk/ski-hoodies">ski trip hoodies</a> and <a class="link-body" href="https://www.hoodiehut.co.uk/leavers-hoodies">leavers hoodies</a> for schools, colleges, and universities.
 images:
   - image_path: hoodiehut/hoodiehut-logo
     image_alt: HoodieHut logo
