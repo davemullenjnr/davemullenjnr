@@ -21,7 +21,7 @@ cloudinary:
   cloud_name: geometryclub
   only_prod: true
   verbose: true
-  origin_url: /
+  origin_url:
   presets:
     default:
       min_width: 540
