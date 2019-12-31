@@ -1,0 +1,34 @@
+---
+layout: post
+title: Mr & Mrs Wilkinson
+excerpt: I recently photographed my friends’ wedding and decided to design and built a one-page website to give them a nicer way to share the images with friends and family.
+date: 2019-09-01 09:09:00 +0000
+permalink: /blog/the-wilkinsons-wedding-photographs/
+category: blog
+hero_image: mr-and-mrs-wilkinson/blog-the-wilkinsons-wedding-photography
+redirect_from: /mr-and-mrs-wilkinson
+images:
+  - src: mr-and-mrs-wilkinson-bride-family.jpg
+    alt: A photograph of the bride and bridesmaids
+  - src: mr-and-mrs-wilkinson-boy.jpg
+    alt: young boy at the entrance to the alter
+  - src: mr-and-mrs-wilkinson-bride.jpg
+    alt: A photograph of the bride in the church
+  - src: mr-and-mrs-wilkinson-church.jpg
+    alt: Photograph of the church tower with trees in the foreground
+  - src: mr-and-mrs-wilkinson-girl-bouquet.jpg
+    alt: a young girl holding the brides bouquet
+  - src: mr-and-mrs-wilkinson-wedding-flowers.jpg
+    alt: A close-up photograph of the brides flowers
+  - src: mr-and-mrs-wilkinson-groom-bride.jpg
+    alt: A photograph of the bride and groom looking out into the Pyrenees mountains
+---
+
+<div class="mb-3 mb-md-4">
+  <p>I recently photographed my friends’ wedding and decided to design and built a one-page website to give them a nice way to share the images with friends and family.</p>
+  <p>Visit <a class="link-body" href="https://thewilkinsons.netlify.com">thewilkinsons.netlify.com</a> to view the full collection.</p>
+</div>
+
+{% for image in page.images %}
+  {% cloudinary /assets/img/posts/mr-and-mrs-wilkinson/{{ image.src }} class="mb-2 blog-image border-radius" alt="{{ image.alt }}" %}
+{% endfor %}
