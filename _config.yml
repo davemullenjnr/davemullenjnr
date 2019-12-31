@@ -16,6 +16,20 @@ plugins:
   - jekyll-feed
   - jekyll-redirect-from
 
+# Cloudinary
+cloudinary:
+  cloud_name: geometryclub
+  only_prod: true
+  verbose: true
+  origin_url: /
+  presets:
+    default:
+      min_width: 540
+      max_width: 1620
+      fallback_max_width: 1080
+      steps: 3
+      sizes: "(max-width: 540px) 540px, (max-width: 1080px) 1080px, 1620px"
+
 github: [metadata]
 
 theme_color: white
