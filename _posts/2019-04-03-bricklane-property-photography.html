@@ -9,45 +9,85 @@ hero_image: bricklane/blog-bricklane-property-photography
 redirect_from: /bricklane/
 images:
   - src: bricklane-dave-mullen-jnr-01.jpg
+    alt:
   - src: bricklane-dave-mullen-jnr-02.jpg
+    alt: The Electric Press chimney in Leeds
   - src: bricklane-dave-mullen-jnr-03.jpg
+    alt: geometric architecture in leeds
   - src: bricklane-dave-mullen-jnr-04.jpg
+    alt: A look inside Blind Tyger in Leeds
   - src: bricklane-dave-mullen-jnr-05.jpg
+    alt: Belgrave Music Hall electric signage and window display in Leeds
   - src: bricklane-dave-mullen-jnr-06.jpg
+    alt: twisted silver metal beams architectural facade in Leeds
   - src: bricklane-dave-mullen-jnr-07.jpg
+    alt: man walking in front of wall mural of several colourful faces
   - src: bricklane-dave-mullen-jnr-08.jpg
+    alt: John Lewis entrance in Leeds city centre
   - src: bricklane-dave-mullen-jnr-09.jpg
+    alt: light bulbs inside Victoria Gate shopping centre Leeds
   - src: bricklane-dave-mullen-jnr-10.jpg
+    alt: a busy Victoria Gate shopping centre in Leeds
   - src: bricklane-dave-mullen-jnr-11.jpg
+    alt: Inside Leeds Arcade shopping street
   - src: bricklane-dave-mullen-jnr-12.jpg
+    alt: a minimal modern appartment in Leeds with green plant
   - src: bricklane-dave-mullen-jnr-13.jpg
+    alt: a minimal modern appartment in Leeds with green plant and dining table
   - src: bricklane-dave-mullen-jnr-14.jpg
+    alt: Leeds Corn Exchange external brick architecture and clock
   - src: bricklane-dave-mullen-jnr-15.jpg
+    alt: a full wide shot inside Leeds Corn Exchange
   - src: bricklane-dave-mullen-jnr-16.jpg
+    alt: All Blues Co independent clothing shop inside Leeds Corn Exchange
   - src: bricklane-dave-mullen-jnr-17.jpg
+    alt: Inside Fred Aldous Ltd in Manchester
   - src: bricklane-dave-mullen-jnr-18.jpg
+    alt: The Foundation Coffee House in Manchester logo and window graphic
   - src: bricklane-dave-mullen-jnr-19.jpg
+    alt: Flower shop in the Northern Quarter, Manchester
   - src: bricklane-dave-mullen-jnr-20.jpg
+    alt: Yard and Coop Manchester logo and window graphic
   - src: bricklane-dave-mullen-jnr-21.jpg
+    alt: looking up at autumnal leaves in the Northern Quarter Manchester
   - src: bricklane-dave-mullen-jnr-22.jpg
+    alt: Appartments at No 1, The Grand on Aytoun Street in Manchester
   - src: bricklane-dave-mullen-jnr-23.jpg
+    alt: A sunny cityscape of Manchester from the roof
   - src: bricklane-dave-mullen-jnr-24.jpg
+    alt: Looking up at City Tower in Manchester on a bright day with blue skies
   - src: bricklane-dave-mullen-jnr-25.jpg
+    alt:
   - src: bricklane-dave-mullen-jnr-26.jpg
+    alt:
   - src: bricklane-dave-mullen-jnr-27.jpg
+    alt: Cosy appartment in Leeds city centre
   - src: bricklane-dave-mullen-jnr-28.jpg
+    alt: Appartments on the riverside in Leeds
   - src: bricklane-dave-mullen-jnr-29.jpg
+    alt: Inside Gibson Hollyhomes appartment block in Manchester
   - src: bricklane-dave-mullen-jnr-30.jpg
+    alt: A busy Columbia Road in London
   - src: bricklane-dave-mullen-jnr-31.jpg
+    alt: Jewish babka bread served on Columbia Road in London
   - src: bricklane-dave-mullen-jnr-32.jpg
+    alt: 
   - src: bricklane-dave-mullen-jnr-33.jpg
+    alt:
   - src: bricklane-dave-mullen-jnr-34.jpg
+    alt:
   - src: bricklane-dave-mullen-jnr-35.jpg
+    alt:
   - src: bricklane-dave-mullen-jnr-36.jpg
+    alt:
   - src: bricklane-dave-mullen-jnr-37.jpg
+    alt:
   - src: bricklane-website-1.jpg
+    alt: website design with housing photography
   - src: bricklane-website-2.jpg
+    alt: website design with housing photography
   - src: bricklane-website-3.jpg
+    alt: website design with housing photography
 ---
 
 <div class="mb-3 mb-md-4">
@@ -55,5 +95,5 @@ images:
 </div>
 
 {% for image in page.images %}
-  {% cloudinary /assets/img/posts/bricklane/{{ image.src }} class="mb-2 blog-image border-radius" alt="Property photography for Bricklane.com" %}
+  {% cloudinary /assets/img/posts/bricklane/{{ image.src }} class="mb-2 blog-image border-radius" alt="{{ image.alt }} property photography for Bricklane.com" %}
 {% endfor %}
