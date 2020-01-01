@@ -1,0 +1,70 @@
+---
+layout: post
+title: Iceland
+excerpt: Last month I travelled to Iceland for a three day action-packed landscape photography trip.
+date: 2017-03-21 09:00:00 +0000
+permalink: /blog/iceland/
+category: blog
+hero_image: iceland/blog-iceland-photography
+
+images:
+  - src: iceland-photography-dave-mullen-jnr-01.jpg
+    alt: Búðakirkja black church
+  - src: iceland-photography-dave-mullen-jnr-02.jpg
+    alt: minimal house in the snowy mountains
+  - src: iceland-photography-dave-mullen-jnr-03.jpg
+    alt: minimal house and car in front of snowy mountain
+  - src: iceland-photography-dave-mullen-jnr-04.jpg
+    alt: sea waves crashing onto the cliffs
+  - src: iceland-photography-dave-mullen-jnr-05.jpg
+    alt: minimal white snowy mountains with small church
+  - src: iceland-photography-dave-mullen-jnr-06.jpg
+    alt: sunset hitting a snowy Kirkjufell mountain top
+  - src: iceland-photography-dave-mullen-jnr-07.jpg
+    alt: ice and snow at the foot of Kirkjufell mountain at sunset
+  - src: iceland-photography-dave-mullen-jnr-08.jpg
+    alt: pink and red hue sky at sunset near a snowy Kirkjufell
+  - src: iceland-photography-dave-mullen-jnr-09.jpg
+    alt: close-up face portrait of a brown Icelandic pony with blond hair stood in the snow
+  - src: iceland-photography-dave-mullen-jnr-10.jpg
+    alt: northern lights or aurora borealis at night over Kirkjufell mountain
+  - src: iceland-photography-dave-mullen-jnr-11.jpg
+    alt: a stark and minimal snowy mountain scene
+  - src: iceland-photography-dave-mullen-jnr-12.jpg
+    alt: a strong black mountain with white snow on top
+  - src: iceland-photography-dave-mullen-jnr-13.jpg
+    alt: looking up at Seljalandsfoss Waterfall
+  - src: iceland-photography-dave-mullen-jnr-14.jpg
+    alt: snow landscape viewed from within a cabin
+  - src: iceland-photography-dave-mullen-jnr-15.jpg
+    alt: snowy hill shot from the back seat of a car
+  - src: iceland-photography-dave-mullen-jnr-16.jpg
+    alt: dusk and stormy weather at black sands beach
+  - src: iceland-photography-dave-mullen-jnr-17.jpg
+    alt: a simple white building and cloudy sky
+  - src: iceland-photography-dave-mullen-jnr-18.jpg
+    alt: single wave in the sea
+  - src: iceland-photography-dave-mullen-jnr-19.jpg
+    alt: moody waves crashing in to rocks on the beach
+  - src: iceland-photography-dave-mullen-jnr-20.jpg
+    alt: seagulls flying with a stormy waves of the sea
+  - src: iceland-photography-dave-mullen-jnr-21.jpg
+    alt: giant wave caught in motion
+  - src: iceland-photography-dave-mullen-jnr-22.jpg
+    alt: Skógafoss Waterfall
+  - src: iceland-photography-dave-mullen-jnr-23.jpg
+    alt: Skógafoss Waterfall from the side
+  - src: iceland-photography-dave-mullen-jnr-24.jpg
+    alt: A snowy Fjaðrárgljúfur deep and winding river canyon
+  - src: iceland-photography-dave-mullen-jnr-25.jpg
+    alt: A small floating iceberg at Glacier Lagoon
+---
+
+<div class="mb-3 mb-md-4">
+  <p>Last month I travelled to Iceland with <a class="link-body" href="https://www.ryansheppeck.com/">Ryan Sheppeck</a>, <a class="link-body" href="https://danscape.co/">Dan Cook</a>, and <a class="link-body" href="https://www.danielcasson.co/">Daniel Casson</a> for a three day action-packed landscape photography trip. Luckily, it had just snowed as we arrived so many of the spots that we visited didn't have as many variables to consider, which suited me as I got to focus more on composition and experimenting with contrast.</p>
+  <p>Here's a selection of the photographs from the trip.</p>
+</div>
+
+{% for image in page.images %}
+  {% cloudinary /assets/img/posts/iceland/{{ image.src }} class="mb-2 blog-image border-radius" alt="{{ image.alt }} landscape photography of Iceland" %}
+{% endfor %}
