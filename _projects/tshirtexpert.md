@@ -4,7 +4,7 @@ order: 11
 title: TShirtExpert
 excerpt: Website design and branding for personalised stag t-shirt printers, TShirtExpert.
 permalink: /tshirtexpert/
-project_image: projects/project-tshirtexpert
+project_image: projects/project-tshirtexpert-website-design
 hero_image: tshirtexpert/tshirtexpert-landing-page
 hero_alt: stag t-shirts by tshirtexpert
 category: work

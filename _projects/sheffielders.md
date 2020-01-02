@@ -4,7 +4,7 @@ order: 9
 title: Sheffielders
 excerpt: Web design and development for Sheffielders — A network of local businesses, projects and creatives who live and work in Sheffield, England.
 permalink: /sheffielders/
-project_image: projects/project-sheffielders
+project_image: projects/project-sheffielders-website-design
 hero_image: sheffielders/sheffielders
 hero_alt: Sheffielders.org landing page
 category: work
