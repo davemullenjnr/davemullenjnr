@@ -150,11 +150,15 @@
 
 // Image as a link
 .link-image {
+  position: relative;
+  overflow: hidden;
+  
   img {
     transition: all 0.2s ease-out;
   }
   img:hover {
-    opacity: 0.8;
+    opacity: 0.9;
+    transform: scale(1.03);
   }
 }
 

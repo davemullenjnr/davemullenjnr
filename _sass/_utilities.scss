@@ -55,6 +55,7 @@
 .bold { font-weight: bold; }
 .uppercase { text-transform: uppercase; }
 .lh-condensed { line-height: 1.2; }
+.lh-1 { line-height: 1; }
 .ls-wide { letter-spacing: 0.1em; }
 
 .underline { 
@@ -228,6 +229,11 @@
 .mb-4 { margin-bottom: $spacer-4; }
 .ml-4 { margin-left: $spacer-4; }
 
+.mt-5 { margin-top: $spacer-5; }
+.mr-5 { margin-right: $spacer-5; }
+.mb-5 { margin-bottom: $spacer-5; }
+.ml-5 { margin-left: $spacer-5; }
+
 // Responsive margin
 @media (min-width: $breakpoint-md) {
   .my-md-auto { margin-top: auto; margin-bottom: auto; }
@@ -257,6 +263,11 @@
   .mr-md-4 { margin-right: $spacer-4; }
   .mb-md-4 { margin-bottom: $spacer-4; }
   .ml-md-4 { margin-left: $spacer-4; }
+
+  .mt-md-5 { margin-top: $spacer-5; }
+  .mr-md-5 { margin-right: $spacer-5; }
+  .mb-md-5 { margin-bottom: $spacer-5; }
+  .ml-md-5 { margin-left: $spacer-5; }
 }
 
 @media (min-width: $breakpoint-lg) {
@@ -287,6 +298,11 @@
   .mr-lg-4 { margin-right: $spacer-4; }
   .mb-lg-4 { margin-bottom: $spacer-4; }
   .ml-lg-4 { margin-left: $spacer-4; }
+
+  .mt-lg-5 { margin-top: $spacer-5; }
+  .mr-lg-5 { margin-right: $spacer-5; }
+  .mb-lg-5 { margin-bottom: $spacer-5; }
+  .ml-lg-5 { margin-left: $spacer-5; }
 }
 
 // Viewport Height
