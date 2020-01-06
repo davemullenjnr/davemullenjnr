@@ -85,6 +85,10 @@
   padding-left: 0;
 }
 
+/* Position */
+.relative { position: relative; }
+.absolute { position: absolute; }
+
 /* Border utilities */
 .border-radius { border-radius: $spacer / 4; }
 
