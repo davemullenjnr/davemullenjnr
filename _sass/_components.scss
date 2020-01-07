@@ -1,7 +1,7 @@
 // Badge — (The WIP badge originally on homepage)
 .badge {
   transform: rotate(-10deg);
-  opacity: 0.95;
+  opacity: 0.92;
   background-color: $brand;      
   color: $white;
   border-radius: 50%;
@@ -13,7 +13,8 @@
   margin-left: -$spacer-1;
   margin-top: -$spacer-1;
   font-size: 0.6rem;
-  box-shadow: 4px 4px 8px 0px rgba($color: #000000, $alpha: 0.1);
+  box-shadow: 2px 2px 8px 0px rgba($color: $black, $alpha: 0.05);
+  transition: all .2s ease-in-out;
 
   @media (min-width: $breakpoint-md) {
    min-width: 4rem;
@@ -26,10 +27,16 @@
   }
 }
 
+.badge:hover {
+  box-shadow: 2px 4px 8px 0px rgba($color: $black, $alpha: 0.1);
+  transform: rotate(0deg);
+  transform: translateY(-4px);
+}
+
 .sheffield {
   min-width: 150px;
-  cursor: default;
   display: inline-block;
+  transition: all 1s ease;
 }
 
 // Video
