@@ -46,6 +46,10 @@
   .f7-lg { font-size: $f7-size; }
 }
 
+// font-family
+.font-header { font-family: $header-font-family };
+.font-body { font-family: $body-font-family };
+
 // text-align
 .text-right { text-align: right; }
 .text-center { text-align: center; }

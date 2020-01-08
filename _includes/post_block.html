@@ -1,13 +1,13 @@
 <!-- Renders post date, title, and snippet of text. -->
-<div class="mb-4">
-  <a class="header-background block mb-2 link-image" href="{{ post.url | prepend: site.baseurl }}">
+<div class="mb-4 mb-lg-5">
+  <a class="header-background block mb-2 link-image border-radius" href="{{ post.url | prepend: site.baseurl }}">
     {% if post.hero_image %}
       {% include post-hero-image.html %}
     {% endif %}
   </a>
   <p class="f7 uppercase bold ls-wide right sm-width-full mb-0">{{ post.date | date: "%b %-d, %Y" }}</p>
-  <h2 class="f3 lh-condensed col-9 mt-0">
+  <h2 class="f3 f2-lg lh-condensed col-9 mt-0">
     <a class="link" title="{{ post.url | prepend: site.baseurl }}" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
   </h2>
-  <p class="f6 col-9 sm-width-full">{{ post.content | strip_html | truncatewords:30 }}</p>
+  <p class="f6 f5-lg col-9 md-width-full">{{ post.content | strip_html | truncatewords:30 }}</p>
 </div>
