@@ -33,7 +33,6 @@ body {
     font-weight: $body-font-weight;
     font-size: $body-font-size;
     line-height: 1.75;
-    letter-spacing: -0.01em;
     color: $color-body-text;
     background-color: $white;
     -webkit-font-smoothing: antialiased;
@@ -44,6 +43,7 @@ p {
   font-family: $body-font-family;
   margin-top: 0;
   margin-bottom: 0.5em;
+  letter-spacing: -0.01em;
 }
 
 b {
