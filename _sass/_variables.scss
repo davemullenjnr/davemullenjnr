@@ -36,9 +36,9 @@
 
 
 // Font family
-$header-font-family: "Chivo", "Helvetica Neue", Arial, sans-serif;
+$header-font-family: "Chivo", -apple-system, "Helvetica Neue", Arial, sans-serif;
 
-$body-font-family: "Graphik", "Helvetica Neue", Arial, sans-serif;
+$body-font-family: "Graphik", -apple-system, system-ui, BlinkMacSystemFont, "Helvetica Neue", Arial, sans-serif;
 $body-font-weight: normal;
 $body-font-size: 16px;
 $prose-font-size: 20px;
