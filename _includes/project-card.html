@@ -7,7 +7,7 @@
                   /assets/img/{{ project.project_image }}-1620px.jpg 1620w,"
           sizes="(max-width: 560px) 100vw, 50vw"
           src="/assets/img/{{ project.project_image }}-540px.jpg" alt="{{ project.title }}" class="ar-object"/>-->
-      {% cloudinary /assets/img/{{ project.project_image }}.jpg class="ar-object" alt="{{ project.title }}" %}
+      {% cloudinary project_card /assets/img/{{ project.project_image }}.jpg class="ar-object" alt="{{ project.title }}" %}
     </div>
   </a>
   <a class="f5 f4-lg link-primary lh-1" href="{{ project.permalink }}">{{ project.title }}</a>
