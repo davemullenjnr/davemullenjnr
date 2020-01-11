@@ -1,11 +1,13 @@
 <div class="col-6 sm-width-full left px-2 mb-4">
   <a class="block mb-2 link-image border-radius" href="{{ project.permalink }}">
     <div class="aspect-ratio ar-4x3">
-      <img srcset="/assets/img/{{ project.project_image }}-540px.jpg 540w,
+      <!-- Old version of generating the images with three sizes -->
+      <!--<img srcset="/assets/img/{{ project.project_image }}-540px.jpg 540w,
                   /assets/img/{{ project.project_image }}-1080px.jpg 1080w,
                   /assets/img/{{ project.project_image }}-1620px.jpg 1620w,"
           sizes="(max-width: 560px) 100vw, 50vw"
-          src="/assets/img/{{ project.project_image }}-540px.jpg" alt="{{ project.title }}" class="ar-object"/>
+          src="/assets/img/{{ project.project_image }}-540px.jpg" alt="{{ project.title }}" class="ar-object"/>-->
+      {% cloudinary /assets/img/{{ project.project_image }}.jpg class="ar-object" alt="{{ project.title }}" %}
     </div>
   </a>
   <a class="f5 f4-lg link-primary lh-1" href="{{ project.permalink }}">{{ project.title }}</a>
