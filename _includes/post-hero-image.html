@@ -1,6 +1,7 @@
 <div class="aspect-ratio ar-16x9">
-   <img src="/assets/img/posts/{{ post.hero_image }}.jpg"
+   <!--<img src="/assets/img/posts/{{ post.hero_image }}.jpg"
       alt="{{ post.hero_image_alt }}"
       class="ar-object"
-   />
+   />-->
+   {% cloudinary /assets/img/posts/{{ post.hero_image }}.jpg class="ar-object" alt="{{ post.hero_image_alt }}" %}
 </div>
