@@ -7,6 +7,47 @@ permalink: /blog/empty-design-museum/
 category: blog
 hero_image: empty-design-museum/blog-empty-design-museum-1620px
 redirect_from: /blog/emptydesignmuseum/
+images:
+  - src: 01-The-Design-Museum-London-0716.jpg
+    alt: looking up at the triangular facade of the Design Museum in Kensington
+  - src: 02-The-Design-Museum-London-0926.jpg
+    alt: A view from the first floor of the Design Museum in London
+  - src: 03-The-Design-Museum-London-0758.jpg
+    alt: A geometric perspective of the hyperbolic roof of the Design Museum in London
+  - src: 04-The-Design-Museum-London-0745.jpg
+    alt: iPhone photography of the interior of the London Design Museum
+  - src: 05-The-Design-Museum-London-0858.jpg
+    alt: A man sat in an empty theatre room inside the Design Museum
+  - src: 06-The-Design-Museum-London-0776.jpg
+    alt: designer, maker, user typography on a yellow tiled wall
+  - src: 07-The-Design-Museum-London-0775.jpg
+    alt: hyperbolic roof at The Design Museum in London
+  - src: 08-The-Design-Museum-London-0942.jpg
+    alt: colourful shapes revealed by the sliding display inside the Design Museum
+  - src: 09-The-Design-Museum-London-0916.jpg
+    alt: Common Room window graphic sign
+  - src: 10-The-Design-Museum-London-0790.jpg
+    alt: prints on the wall of the design museum
+  - src: 11-The-Design-Museum-London-0735.jpg
+    alt: hyperbolic roof structure with concrete and brick features
+  - src: 12-The-Design-Museum-London-0780.jpg
+    alt: shiny triangular yellow tiled wall
+  - src: 13-The-Design-Museum-London-0805.jpg
+    alt: do not touch icon at the museum
+  - src: 14-The-Design-Museum-London-0760.jpg
+    alt: a pile of books on a stool
+  - src: 15-The-Design-Museum-London-0887.jpg
+    alt: abstract shot inside a neon light display
+  - src: 16-The-Design-Museum-London-0813.jpg
+    alt: how can design change our world? pencil and note pad
+  - src: 17-The-Design-Museum-London-0766.jpg
+    alt: art installation inside the Design Museum
+  - src: 18-The-Design-Museum-London-0956.jpg
+    alt: sackler library and archive
+  - src: 19-The-Design-Museum-London-0936.jpg
+    alt: looking up the staircase at the design museum
+  - src: 20-The-Design-Museum-London-0714.jpg
+    alt: external shot of the hyperbolic roof design
 ---
 
 <div class="mb-3 mb-md-4">
@@ -14,43 +55,6 @@ redirect_from: /blog/emptydesignmuseum/
   <p>The highlight was the enormity of the hyperbolic paraboloid roof. It has been beautifully exposed so that it could enjoyed from the inside. Here’s a selection of my photographs from the #emptydesignmuseum event.</p>
 </div>
 
-{% include post-image.html image="empty-design-museum/01-The-Design-Museum-London-0716.jpg"
-image_alt="looking up at the triangular facade of the Design Museum in Kensington" %}
-{% include post-image.html image="empty-design-museum/02-The-Design-Museum-London-0926.jpg"
-image_alt="a view from the first floor of the Design Museum in London" %}
-{% include post-image.html image="empty-design-museum/03-The-Design-Museum-London-0758.jpg"
-image_alt="a geometric perspective of the hyperbolic roof of the Design Museum in London" %}
-{% include post-image.html image="empty-design-museum/04-The-Design-Museum-London-0745.jpg"
-image_alt="iPhone photography of the interior of the London Design Museum" %}
-{% include post-image.html image="empty-design-museum/05-The-Design-Museum-London-0858.jpg"
-image_alt="one man sat in an empty theatre room inside the Design Museum" %}
-{% include post-image.html image="empty-design-museum/06-The-Design-Museum-London-0776.jpg"
-image_alt="designer, maker, user typography on a yellow tiled wall" %}
-{% include post-image.html image="empty-design-museum/07-The-Design-Museum-London-0775.jpg"
-image_alt="hyperbolic roof at The Design Museum in London" %}
-{% include post-image.html image="empty-design-museum/08-The-Design-Museum-London-0942.jpg"
-image_alt="colourful shapes revealed by the sliding display inside the Design Museum" %}
-{% include post-image.html image="empty-design-museum/09-The-Design-Museum-London-0916.jpg"
-image_alt="Common Room window graphic sign" %}
-{% include post-image.html image="empty-design-museum/10-The-Design-Museum-London-0790.jpg"
-image_alt="prints on the wall of the design museum" %}
-{% include post-image.html image="empty-design-museum/11-The-Design-Museum-London-0735.jpg"
-image_alt="hyperbolic roof structure with concrete and brick features" %}
-{% include post-image.html image="empty-design-museum/12-The-Design-Museum-London-0780.jpg"
-image_alt="shiny triangular yellow tiled wall" %}
-{% include post-image.html image="empty-design-museum/13-The-Design-Museum-London-0805.jpg"
-image_alt="do not touch icon at the museum" %}
-{% include post-image.html image="empty-design-museum/14-The-Design-Museum-London-0760.jpg"
-image_alt="a pile of books on a stool" %}
-{% include post-image.html image="empty-design-museum/15-The-Design-Museum-London-0887.jpg"
-image_alt="abstract shot inside a neon light display" %}
-{% include post-image.html image="empty-design-museum/16-The-Design-Museum-London-0813.jpg"
-image_alt="how can design change our world? pencil and note pad" %}
-{% include post-image.html image="empty-design-museum/17-The-Design-Museum-London-0766.jpg"
-image_alt="art installation inside the Design Museum" %}
-{% include post-image.html image="empty-design-museum/18-The-Design-Museum-London-0956.jpg"
-image_alt="sackler library and archive" %}
-{% include post-image.html image="empty-design-museum/19-The-Design-Museum-London-0936.jpg"
-image_alt="looking up the staircase at the design museum" %}
-{% include post-image.html image="empty-design-museum/20-The-Design-Museum-London-0714.jpg"
-image_alt="external shot of the hyperbolic roof design" %}
+{% for image in page.images %}
+  {% cloudinary /assets/img/posts/empty-design-museum/{{ image.src }} class="mb-2 blog-image border-radius" alt="{{ image.alt }}" %}
+{% endfor %}
