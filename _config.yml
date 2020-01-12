@@ -28,7 +28,13 @@ cloudinary:
       max_width: 1620
       fallback_max_width: 1080
       steps: 3
-      sizes: "(max-width: 540px) 540px, (max-width: 1080px) 1080px, 1620px"
+      sizes: "(max-width: 540px) 100vw, (max-width: 1080px) 100vw, 1000px"
+    old_post:
+      min_width: 600
+      max_width: 1200
+      fallback_max_width: 900
+      steps: 3
+      sizes: "(max-width: 600px) 600px, (max-width: 900px) 900px, 1200px"
     project_card:
       min_width: 500
       max_width: 1000

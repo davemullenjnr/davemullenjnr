@@ -56,5 +56,5 @@ images:
 </div>
 
 {% for image in page.images %}
-  {% cloudinary /assets/img/posts/empty-design-museum/{{ image.src }} class="mb-2 blog-image border-radius" alt="{{ image.alt }}" %}
+  {% cloudinary old_post /assets/img/posts/empty-design-museum/{{ image.src }} class="mb-2 blog-image border-radius" alt="{{ image.alt }}" %}
 {% endfor %}
