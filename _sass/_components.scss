@@ -191,3 +191,16 @@
   max-width: 1620px;
   height: auto;
 }
+
+.uses {
+
+  ul {
+    list-style: circle;
+  }
+
+  li {
+    margin-left: 1em;
+    margin-bottom: 1em;
+    line-height: 1.5em;
+  }
+}
