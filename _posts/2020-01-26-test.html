@@ -1,0 +1,16 @@
+---
+layout: post
+title: test
+excerpt: 
+date: 2020-01-26 09:09:00 +0000
+permalink: /blog/activate
+category: blog
+---
+
+<div class="mb-3 mb-md-4">
+  <a href="https://www.bloglovin.com/blog/20300561/?claim=kbdtc4hr8jz">Follow my blog with Bloglovin</a>
+</div>
+
+{% for image in page.images %}
+  {% cloudinary /assets/img/posts/mr-and-mrs-wilkinson/{{ image.src }} class="mb-2 blog-image border-radius" alt="{{ image.alt }}" %}
+{% endfor %}
