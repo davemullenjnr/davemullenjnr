@@ -6,6 +6,45 @@ date: 2015-04-15 09:09:00 +0000
 permalink: /blog/new-york-city/
 category: blog
 hero_image: nyc/blog-new-york-city-1620px
+images:
+  - src: New-York-City-1.jpg
+    alt: Girl looking out of plane window at sunset wearing Tens sunglasses
+  - src: New-York-City-2.jpg
+    alt: Street performer playing saxophone on a bench in central park
+  - src: New-York-City-3.jpg
+    alt: View down a long street in the upper west side of Manhattan, New York City
+  - src: New-York-City-4.jpg
+    alt: Girl taking photo with iPhone on The Highline in Manhattan
+  - src: New-York-City-5.jpg
+    alt: A view from Brooklyn overlooking Manhattan featuring the underside of Brooklyn Bridge
+  - src: New-York-City-6.jpg
+    alt: Reflection of a building in a puddle
+  - src: New-York-City-7.jpg
+    alt: A view of the Empire State building framed by the arch of Manhattan Bridge taken from Washington Street in Dumbo, Brooklyn
+  - src: New-York-City-8.jpg
+    alt: Looking down at feet walking over the wooden beams on Brooklyn Bridge
+  - src: New-York-City-9.jpg
+    alt: symetrical photo looking up at the arches and wires of Brooklyn Bridge
+  - src: New-York-City-10.jpg
+    alt: Manhattan bridge from the side with a clear blue sky above
+  - src: New-York-City-11.jpg
+    alt: Intimate photograph of men playing and watching a checkers game at The Five Points in Chinatown, Manhattan
+  - src: New-York-City-12.jpg
+    alt: Yellow flowers in a little wagon outside of a flower shop in Brooklyn
+  - src: New-York-City-13.jpg
+    alt: A red sky at dusk overlooking Manhattan including the Empire State building and One World Trade Center. Photo taken from Top Of The Rock
+  - src: New-York-City-14.jpg
+    alt: Four large bottles of cold brew iced coffee in a cafe
+  - src: New-York-City-15.jpg
+    alt: Bike lanes across the Williamsburg Bridge at night
+  - src: New-York-City-16.jpg
+    alt: Side view of a big red tow truck against a white brick wall in Williamsburg
+  - src: New-York-City-17.jpg
+    alt: Close up of the flatiron building in Manhattan
+  - src: New-York-City-18.jpg
+    alt: Long exposure of the Williamsburg Bridge at night from the river side
+  - src: New-York-City-19.jpg
+    alt: A minimal look up at the steel facade of 250 World Trade Center
 ---
 
 <div class="video-wrapper mb-3 mb-md-4">
@@ -19,41 +58,6 @@ hero_image: nyc/blog-new-york-city-1620px
   <p>The song used is <a class="link-body" href="https://open.spotify.com/track/79sv412UslJbXWRtqkSVGh?si=EsCNIUIdRbWtoRVGOKVM5A">Daydream by Beach Fossils</a>. There are a few reasons why this song works; it’s upbeat and energetic, the lyrics are relevent (to us) and the band are from Brooklyn which is where we spent most of our time.</p>
 </div>
 
-{% include post-image.html image="nyc/New-York-City-1.jpg"
-image_alt="Girl looking out of plane window at sunset wearing Tens sunglasses" %}
-{% include post-image.html image="nyc/New-York-City-2.jpg"
-image_alt="Street performer playing saxophone on a bench in central park" %}
-{% include post-image.html image="nyc/New-York-City-3.jpg"
-image_alt="View down a long street in the upper west side of Manhattan, New York City" %}
-{% include post-image.html image="nyc/New-York-City-4.jpg"
-image_alt="Girl taking photo with iPhone on The Highline in Manhattan" %}
-{% include post-image.html image="nyc/New-York-City-5.jpg"
-image_alt="A view from Brooklyn overlooking Manhattan featuring the underside of Brooklyn Bridge" %}
-{% include post-image.html image="nyc/New-York-City-6.jpg"
-image_alt="Reflection of a building in a puddle" %}
-{% include post-image.html image="nyc/New-York-City-7.jpg"
-image_alt="A view of the Empire State building framed by the arch of Manhattan Bridge taken from Washington Street in Dumbo, Brooklyn" %}
-{% include post-image.html image="nyc/New-York-City-8.jpg"
-image_alt="Looking down at feet walking over the wooden beams on Brooklyn Bridge" %}
-{% include post-image.html image="nyc/New-York-City-9.jpg"
-image_alt="symetrical photo looking up at the arches and wires of Brooklyn Bridge" %}
-{% include post-image.html image="nyc/New-York-City-10.jpg"
-image_alt="Manhattan bridge from the side with a clear blue sky above" %}
-{% include post-image.html image="nyc/New-York-City-11.jpg"
-image_alt="Intimate photograph of men playing and watching a checkers game at The Five Points in Chinatown, Manhattan" %}
-{% include post-image.html image="nyc/New-York-City-12.jpg"
-image_alt="Yellow flowers in a little wagon outside of a flower shop in Brooklyn" %}
-{% include post-image.html image="nyc/New-York-City-13.jpg"
-image_alt="A red sky at dusk overlooking Manhattan including the Empire State building and One World Trade Center. Photo taken from Top Of The Rock" %}
-{% include post-image.html image="nyc/New-York-City-14.jpg"
-image_alt="Four large bottles of cold brew iced coffee in a cafe" %}
-{% include post-image.html image="nyc/New-York-City-15.jpg"
-image_alt="Bike lanes across the Williamsburg Bridge at night" %}
-{% include post-image.html image="nyc/New-York-City-16.jpg"
-image_alt="Side view of a big red tow truck against a white brick wall in Williamsburg" %}
-{% include post-image.html image="nyc/New-York-City-17.jpg"
-image_alt="Close up of the flatiron building in Manhattan" %}
-{% include post-image.html image="nyc/New-York-City-18.jpg"
-image_alt="Long exposure of the Williamsburg Bridge at night from the river side" %}
-{% include post-image.html image="nyc/New-York-City-19.jpg"
-image_alt="A minimal look up at the steel facade of 250 World Trade Center" %}
+{% for image in page.images %}
+  {% cloudinary old_post /assets/img/posts/nyc/{{ image.src }} class="mb-2 blog-image border-radius" alt="{{ image.alt }}" %}
+{% endfor %}

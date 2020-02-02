@@ -6,6 +6,25 @@ date: 2016-04-12 09:09:00 +0000
 permalink: /blog/amsterdam/
 category: blog
 hero_image: amsterdam/blog-amsterdam-1620px
+images:
+  - src: Amsterdam-blog-(1-of-9).jpg
+    alt: A rack of black bikes from Good Hotel in Amsterdam
+  - src: Amsterdam-blog-(2-of-9).jpg
+    alt: A green plant casting its shadow on to a grey concrete floor
+  - src: Amsterdam-blog-(3-of-9).jpg
+    alt: Men only sign design on a barber shop window in Amsterdam
+  - src: Amsterdam-blog-(4-of-9).jpg
+    alt: Bicycle outside of a shop on a street in Amsterdam
+  - src: Amsterdam-blog-(5-of-9).jpg
+    alt: Reflection in the water of the I Amsterdam sign in front of the Rijksmuseum
+  - src: Amsterdam-blog-(6-of-9).jpg
+    alt: Architecture facade of the Van Gogh Museum Amsterdam
+  - src: Amsterdam-blog-(7-of-9).jpg
+    alt: Juice and salad delivery bike with a basket on the front in Amsterdam
+  - src: Amsterdam-blog-(8-of-9).jpg
+    alt: Dining room inside Good Hotel. A popup hotel on the canal in Amsterdam
+  - src: Amsterdam-blog-(9-of-9).jpg
+    alt: Het Kauf Haus shop window in Amsterdam
 ---
 
 <div class="video-wrapper mb-3 mb-md-4">
@@ -16,21 +35,6 @@ hero_image: amsterdam/blog-amsterdam-1620px
   <p>A short video I made from a recent trip to Amsterdam. The footage was shot on Canon 6D with 50mm f1.4 lens and an iPhone 6s. Music by <a class="link-body" href="https://soundcloud.com/peaks-peaks/eros">Peaks</a>.</p>
 </div>
 
-{% include post-image.html image="amsterdam/Amsterdam-blog-(1-of-9).jpg"
-image_alt="A rack of black bikes from Good Hotel in Amsterdam" %}
-{% include post-image.html image="amsterdam/Amsterdam-blog-(2-of-9).jpg"
-image_alt="A green plant casting its shadow on to a grey concrete floor" %}
-{% include post-image.html image="amsterdam/Amsterdam-blog-(3-of-9).jpg"
-image_alt="Men only sign design on a barber shop window in Amsterdam" %}
-{% include post-image.html image="amsterdam/Amsterdam-blog-(4-of-9).jpg"
-image_alt="Bicycle outside of a shop on a street in Amsterdam" %}
-{% include post-image.html image="amsterdam/Amsterdam-blog-(5-of-9).jpg"
-image_alt="Reflection in the water of the I Amsterdam sign in front of the Rijksmuseum" %}
-{% include post-image.html image="amsterdam/Amsterdam-blog-(6-of-9).jpg"
-image_alt="Architecture facade of the Van Gogh Museum Amsterdam" %}
-{% include post-image.html image="amsterdam/Amsterdam-blog-(7-of-9).jpg"
-image_alt="Juice and salad delivery bike with a basket on the front in Amsterdam" %}
-{% include post-image.html image="amsterdam/Amsterdam-blog-(8-of-9).jpg"
-image_alt="Dining room inside Good Hotel. A popup hotel on the canal in Amsterdam" %}
-{% include post-image.html image="amsterdam/Amsterdam-blog-(9-of-9).jpg"
-image_alt="Het Kauf Haus shop window in Amsterdam" %}
+{% for image in page.images %}
+  {% cloudinary old_post /assets/img/posts/amsterdam/{{ image.src }} class="mb-2 blog-image border-radius" alt="{{ image.alt }}" %}
+{% endfor %}
