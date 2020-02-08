@@ -204,3 +204,7 @@
     line-height: 1.5em;
   }
 }
+
+.project-image-border>img {
+  border: $spacer / 8 solid $grey-light;
+}

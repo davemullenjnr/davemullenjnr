@@ -6,7 +6,7 @@ layout: default
   <!--hero image-->
   {% if page.hero_image %}
   <div class="mt-4 mb-4 px-2">
-  {% include project-hero-image.html %}
+  {% include project-hero-image-cloud.html %}
   </div>
   {% endif %}
 
@@ -34,7 +34,7 @@ layout: default
   {% for image in page.images %}
   {% if image.col_6 == true %}<div class="col-6 md-width-full left">{% endif %}
   <div class="px-2 mb-2 mb-lg-3">
-    {% include project-image.html %}
+    {% include project-image-cloud.html %}
     {% if image.caption %}<p class="f7 f6-md mt-1 mb-2 mt-lg-2 mb-lg-3 text-right grey-dark">{{ image.caption }}</p>{% endif %}
   </div>
   {% if image.col_6 == true %}</div>{% endif %}
