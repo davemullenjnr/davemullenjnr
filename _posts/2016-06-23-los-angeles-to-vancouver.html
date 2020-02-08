@@ -8,6 +8,9 @@ category: blog
 hero_image: west-coast/blog-west-coast-LA-to-Vancouver-1620px
 redirect_from: /blog/la-to-vancouver/
 images:
+  - src: Los-Angeles-to-Vancouver-Map.jpg
+    alt: hazy hills of Los Angeles from the sky
+    caption: Our route, starting in Los Angeles and ending in Vancouver.
   - src: west-coast-photography-dave-mullen-jnr-1.jpg
     alt: hazy hills of Los Angeles from the sky
   - src: west-coast-photography-dave-mullen-jnr-2.jpg
@@ -90,5 +93,5 @@ image_alt="Los Angeles to Vancouver route map for car and train" caption="Our ro
 image_alt="hand-drawn brush lettering of Los Angeles, Oakland, San Francisco, Yosemite, Portland, and Vancouver" caption="Hand drawn lettering for use in the video." %}
 
 {% for image in page.images %}
-  {% cloudinary old_post /assets/img/posts/west-coast/{{ image.src }} class="mb-2 blog-image border-radius" alt="{{ image.alt }}" %}
+  {% cloudinary old_post /assets/img/posts/west-coast/{{ image.src }} class="mb-2 blog-caption border-radius" alt="{{ image.alt }}" caption="{{ image.caption }}" %}
 {% endfor %}

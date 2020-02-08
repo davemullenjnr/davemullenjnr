@@ -187,11 +187,6 @@
   color: $white;
 }
 
-.blog-image {
-  max-width: 1620px;
-  height: auto;
-}
-
 .uses {
 
   ul {
@@ -207,4 +202,9 @@
 
 .project-image-border>img {
   border: $spacer / 8 solid $grey-light;
+}
+
+.blog-caption>figcaption>p {
+  text-align: right;
+  color: $grey-dark;
 }
