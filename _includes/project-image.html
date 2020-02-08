@@ -1,9 +1,5 @@
-<img
-  srcset="/assets/img/projects/{{ image.image_path }}-540px.jpg 540w,
-          /assets/img/projects/{{ image.image_path }}-1080px.jpg 1080w,
-          /assets/img/projects/{{ image.image_path }}-1620px.jpg 1620w,"
-   sizes="(max-width: 540px) 540px, 1080px"
-   src="/assets/img/projects/{{ image.image_path }}-1080px.jpg"
-   alt="{{ image.image_alt }}"
-   class="border-radius{% if image.border == true %} image-border{% endif %}"
-/>
+{% if image.border == true %}<div class="project-image-border">{% endif %}
+{% cloudinary /assets/img/projects/{{ image.image_path }}.jpg 
+class="border-radius"
+alt="{{ image.image_alt }}" %}
+{% if image.border == true %}</div>{% endif %}
