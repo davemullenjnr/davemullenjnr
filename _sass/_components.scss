@@ -207,4 +207,11 @@
 .blog-caption>figcaption>p {
   text-align: right;
   color: $grey-dark;
+  width: 100%;
+  font-size: 0.75em;
+  margin-top: 1em;
+
+  @media (min-width: $breakpoint-md) {
+    font-size: 1em;
+  }
 }
