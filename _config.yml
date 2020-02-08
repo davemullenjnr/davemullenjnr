@@ -15,7 +15,7 @@ markdown: kramdown
 plugins:
   - jekyll-feed
   - jekyll-redirect-from
-
+  
 # Cloudinary
 cloudinary:
   cloud_name: geometryclub
