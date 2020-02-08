@@ -9,8 +9,11 @@ hero_image: west-coast/blog-west-coast-LA-to-Vancouver-1620px
 redirect_from: /blog/la-to-vancouver/
 images:
   - src: Los-Angeles-to-Vancouver-Map.jpg
-    alt: hazy hills of Los Angeles from the sky
+    alt: Los Angeles to Vancouver route map for car and train
     caption: Our route, starting in Los Angeles and ending in Vancouver.
+  - src: West-Coast-Hand-Lettering.jpg
+    alt: hand-drawn brush lettering of Los Angeles, Oakland, San Francisco, Yosemite, Portland, and Vancouver
+    caption: Hand drawn lettering for use in the video.
   - src: west-coast-photography-dave-mullen-jnr-1.jpg
     alt: hazy hills of Los Angeles from the sky
   - src: west-coast-photography-dave-mullen-jnr-2.jpg
@@ -85,12 +88,6 @@ images:
   <p>Back in September 2015, <a class="link-body" href="https://instagram.com/mismaria">Maria</a> and I travelled to Los Angeles and steadily made our way up the pacific coast eventually crossing the boarder into Canada, finishing up in Vancouver, BC.</p>
   <p>Above is a short video I made of our trip as a memento for us and to share with our family and friends. And below is a selection of photographs I took along the way.</p>
 </div>
-
-{% include post-image.html image="west-coast/Los-Angeles-to-Vancouver-Map.jpg"
-image_alt="Los Angeles to Vancouver route map for car and train" caption="Our route, starting in Los Angeles and ending in Vancouver." %}
-
-{% include post-image.html image="west-coast/West-Coast-Hand-Lettering.jpg"
-image_alt="hand-drawn brush lettering of Los Angeles, Oakland, San Francisco, Yosemite, Portland, and Vancouver" caption="Hand drawn lettering for use in the video." %}
 
 {% for image in page.images %}
   {% cloudinary old_post /assets/img/posts/west-coast/{{ image.src }} class="mb-2 blog-caption border-radius" alt="{{ image.alt }}" caption="{{ image.caption }}" %}
