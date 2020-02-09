@@ -41,6 +41,12 @@ cloudinary:
       fallback_max_width: 1000
       steps: 2
       sizes: "(max-width: 560px) 100vw, (max-width: 1024px) 50vw, 500px"
+    profile:
+      min_width: 250
+      max_width: 500
+      fallback_max_width: 500
+      steps: 2
+      sizes: "(max-width: 560px) 50vw, (max-width: 1024px) 33vw, 240px"
 
 github: [metadata]
 
