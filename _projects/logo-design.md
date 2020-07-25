@@ -34,6 +34,9 @@ images:
   - image_path: logo-design/brooklyn-new-york-logo
     image_alt: Brooklyn Logo
     caption: Brooklyn, New York
+  - image_path: logo-design/no-castling-chess-icon
+    image_alt: No-Castling Chess Logo
+    caption: <a class="link-caption" href="https://nocastlingchess.com">No Castling Chess</a>
   - image_path: logo-design/tame-impala-logo
     image_alt: Tame Impala Logo
     caption: Tame Impala
