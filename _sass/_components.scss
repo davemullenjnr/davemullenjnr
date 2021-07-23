@@ -116,13 +116,13 @@
 
 // Links within paragraph text
 .link-body {
-  border-bottom: 2px solid;
-  border-color: $grey-mid;
-  padding-bottom: $spacer / 2;
+  text-decoration: underline;
+  text-underline-position: from-font;
+  text-decoration-color: $grey-mid;
   transition: ease-in-out .1s;
 
   &:hover {
-    border-color: $brand;
+    text-decoration-color: $brand;
   }
 }
 
