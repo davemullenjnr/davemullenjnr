@@ -19,6 +19,9 @@ images:
   - image_path: logo-design/hoodiehut-logo
     image_alt: HoodieHut Logo
     caption: <a class="link-caption" href="https://www.hoodiehut.co.uk/">HoodieHut</a>
+  - image_path: logo-design/knots-massage-logo
+    image_alt: Knots Massage Logo
+    caption: <a class="link-caption" href="https://knotsmassage.co.uk/">Knots Massage</a>
   - image_path: logo-design/social-sheffield-logo
     image_alt: Social Sheffield Logo
     caption: <a class="link-caption" href="http://www.socialsheffield.net/magazine/">Social Sheffield</a>
