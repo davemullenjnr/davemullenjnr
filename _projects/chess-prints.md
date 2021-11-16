@@ -5,7 +5,7 @@ title: Chess Prints
 excerpt: A series of chess opening prints.
 permalink: /chess-prints/
 project_image: projects/project-chess-opening-prints
-hero_image: chess-prints/ruy-lopez-chess opening-print
+hero_image: chess-prints/ruy-lopez-chess-opening-print
 hero_alt: Ruy Lopez chess opening print / poster
 category: work
 tags:
