@@ -12,7 +12,7 @@ tags:
   - tag: Print Design
 description:
   - paragraph: I love chess but the <i>traditional</i> aesthetic isn't to my taste. I’ve been looking for an excuse to make something that’s a bit more elegant and minimal. So, I’ve started making this series of chess openings as art prints. They are printed on lovely fine art (slightly textured) 200gsm paper and are now available to buy on <a class="link-body" href="https://www.etsy.com/shop/DaveMullenJnr">Etsy</a>.
-  - paragraph: The prints make for a perfect chess gift for a player (or yourself), and are available to purchase in the UK, USA, Europe, and Australia.
+  - paragraph: The prints make for a perfect <a class="link-body" href="https://www.etsy.com/listing/1116098731/ruy-lopez-chess-opening-print">chess gift</a> for a player (or yourself), and are available to purchase in the UK, USA, Europe, and Australia.
 images:
   - image_path: chess-prints/sicilian-defense-chess-opening-print
     image_alt: Italian Game chess opening poster print
