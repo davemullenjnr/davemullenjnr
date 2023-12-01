@@ -1,0 +1,36 @@
+---
+layout: post
+title: Chess Themed Art Prints
+excerpt: A collection of chess prints and chess posters that I've designed for sale on Etsy.
+date: 2023-12-01 09:09:00 +0000
+permalink: /blog/chess-themed-art-prints/
+category: blog
+hero_image: chess-themed-art-prints/blog-chess-themed-art-prints
+images:
+  - src: game-of-the-century-bobby-fischer-art-print-poster-design.jpg
+    alt: game of the century bobby fischer art print poster design
+    caption: Game of the Century Chess Print
+  - src: 20-chess-openings-poster-print.jpg
+    alt: 20 chess openings poster print
+    caption: 20 Openings Chess Print
+  - src: the-queens-gambit-chess-poster-print-design.jpg
+    alt: the queen's gambit chess poster print design
+    caption: Queen's Gambit Chess Openings Print
+  - src: 12-chess-openings-poster-print.jpg
+    alt: 12 chess openings poster print
+    caption: 12 Openings Chess Poster
+  - src: caro-kann-defense-chess-art-print-black.jpg
+    alt: Caro-Kann Defense chess print design in black
+    caption: Caro-Kann Chess Opening Print
+  - src: 30-chess-openings-poster-print.jpg
+    alt: 30 chess openings poster print
+    caption: 30 Openings Chess Art Print
+---
+
+<div class="mb-3 mb-md-4">
+  <p>Here's a selection of my <a class="link-body" href="https://davemullenjnr.etsy.com">chess prints on Etsy</a>. I absolutely love chess and have been designing these art prints for other chess players to enjoy.</p>
+</div>
+
+{% for image in page.images %}
+  {% cloudinary old_post /assets/img/posts/chess-themed-art-prints/{{ image.src }} class="mb-2 blog-caption border-radius" alt="{{ image.alt }}" caption="{{ image.caption }}" %}
+{% endfor %}
